@@ -1,0 +1,9 @@
+services:
+  nextjs-faster:
+    container_name: nextjs-faster
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+node_modules/
+.pnpm-store
+.vscode
+
+eslint.config.mjs
+.gitignore
+.prettierrc
+.prettierignore
+commitlint.config.ts
+
+.next
+.husky

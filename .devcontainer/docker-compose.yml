@@ -1,0 +1,19 @@
+volumes:
+  app-node-modules:
+  app-command-history:
+  app-oh-my-zsh:
+
+services:
+  app:
+    container_name: nextjs-faster
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    command: sleep infinity
+    env_file:
+      - .env
+    volumes:
+      - ..:${CONTAINER_HOME}/workspaces:cached
+      - app-node-modules:${CONTAINER_HOME}/workspaces/node_modules:cached
+      - app-command-history:${CONTAINER_HOME}/commandhistory
+      - app-oh-my-zsh:${CONTAINER_HOME}/.oh-my-zsh
