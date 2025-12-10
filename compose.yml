@@ -1,6 +1,6 @@
 services:
-  nextjs-faster:
-    container_name: nextjs-faster
+  kyc-sample:
+    container_name: kyc-sample
     build:
       context: .
       dockerfile: Dockerfile
