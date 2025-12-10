@@ -1,39 +1,39 @@
-name: Release Source
+# name: Release Source
 
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+# permissions:
+#   contents: write
+#   pages: write
+#   id-token: write
 
-jobs:
-  release:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+# jobs:
+#   release:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "24"
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: "24"
 
-      - name: Install latest corepack
-        run: npm i -g corepack@latest
+#       - name: Install latest corepack
+#         run: npm i -g corepack@latest
 
-      - name: Enable pnpm
-        run: corepack enable
+#       - name: Enable pnpm
+#         run: corepack enable
 
-      - name: Install dependencies without postinstall scipt (dont have env to run prisma)
-        run: |
-          npm_config_ignore_scripts=true pnpm install
+#       - name: Install dependencies without postinstall scipt (dont have env to run prisma)
+#         run: |
+#           npm_config_ignore_scripts=true pnpm install
 
-      - name: Run semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          HUSKY: 0
-        run: pnpm dlx semantic-release
+#       - name: Run semantic-release
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+#           HUSKY: 0
+#         run: pnpm dlx semantic-release

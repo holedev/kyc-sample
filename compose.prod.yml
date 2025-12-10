@@ -1,0 +1,13 @@
+services:
+  kyc-sample:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    expose:
+      - "3000"
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.kyc-sample.rule=Host(`kyc-sample.holedev.com`)"
+      - "traefik.http.routers.kyc-sample.entrypoints=websecure"
+      - "traefik.http.routers.kyc-sample.tls.certresolver=leresolver"
