@@ -52,7 +52,7 @@ const LoginClient = () => {
       cb: async () => signInWithNickname(nickname, password),
       withSuccessNotify: true,
       onSuccess: () => {
-        router.push("/");
+        window.location.href = "/";
       }
     });
     setIsLoading(false);

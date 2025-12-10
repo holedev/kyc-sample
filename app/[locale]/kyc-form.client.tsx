@@ -7,6 +7,7 @@ import { LoadingComponent } from "@/components/custom/Loading";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Separator } from "@/components/ui/separator";
 import { useHandleError } from "@/hooks/use-handle-error";
 import { handleDatetime } from "@/utils/handle-datetime";
@@ -34,6 +35,8 @@ export function KYCFormClient() {
     identity?: Blob;
     phone?: Blob;
   }>({});
+  const [selectedSex, setSelectedSex] = useState<"male" | "female">("male");
+
   const router = useRouter();
 
   const { handleErrorClient } = useHandleError();
@@ -59,7 +62,7 @@ export function KYCFormClient() {
       }
 
       if (result.revalidated) {
-        await loadRandomKYC();
+        await loadRandomKYC(selectedSex);
       }
 
       if (result.success || result.data?.successCount > 0) {
@@ -104,12 +107,12 @@ export function KYCFormClient() {
   };
 
   // biome-ignore lint/correctness/useExhaustiveDependencies: <TODO: fix then>
-  const loadRandomKYC = useCallback(async () => {
+  const loadRandomKYC = useCallback(async (selectedSex: "male" | "female") => {
     setIsLoading(true);
     await handleErrorClient({
       cb: async () => {
-        const result = await getRandomKYCData();
-        const count = await getCacheKYCCount();
+        const result = await getRandomKYCData(selectedSex);
+        const count = await getCacheKYCCount(selectedSex);
 
         if (result.data?.payload) {
           setRandomKYC(result.data.payload as KYCData);
@@ -125,21 +128,32 @@ export function KYCFormClient() {
   }, []);
 
   useEffect(() => {
-    loadRandomKYC();
-  }, [loadRandomKYC]);
+    loadRandomKYC(selectedSex);
+  }, [loadRandomKYC, selectedSex]);
 
   return (
     <div className='mx-auto w-full'>
       <Card className='mx-auto max-w-[400px] text-center'>
         <CardHeader className='mb-0 p-4 text-center'>
-          <CardTitle>Tổng số record: {KYCCount}</CardTitle>
+          <CardTitle>Total: {KYCCount}</CardTitle>
         </CardHeader>
         <CardContent className='overflow-x-auto p-4 text-center'>
           {randomKYC ? (
             <div className='space-y-4'>
-              <Button disabled={isLoading} onClick={loadRandomKYC} size='lg'>
-                Refresh Random Data
-              </Button>
+              <div className='flex items-center justify-center gap-4'>
+                <Select onValueChange={(value) => setSelectedSex(value as "male" | "female")} value={selectedSex}>
+                  <SelectTrigger className='w-[180px]'>
+                    <SelectValue placeholder='Giới tính' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='male'>Nam</SelectItem>
+                    <SelectItem value='female'>Nữ</SelectItem>
+                  </SelectContent>
+                </Select>
+                <Button disabled={isLoading} onClick={() => loadRandomKYC(selectedSex)} size='lg'>
+                  Refresh Random Data
+                </Button>
+              </div>
               <div className='space-y-4'>
                 <div className='flex justify-center gap-6'>
                   <div className='space-x-2'>

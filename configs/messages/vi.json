@@ -48,7 +48,7 @@
       "nicknamePlaceholder": "Điền bí danh của bạn ...",
       "passwordLabel": "Password",
       "passwordPlaceholder": "Điền mật khẩu của bạn ...",
-      "fastSignUp": "Đăng ký nhanh"
+      "fastSignUp": "Đăng ký nhanh/Đăng nhập"
     }
   },
   "home": {
@@ -56,6 +56,12 @@
     "nickname": {
       "title": "Danh sách người dùng đã truy cập",
       "description": "Danh sách tất cả bí danh đã truy cập trang web này. Để thay đổi bí danh của bạn, vui lòng truy cập"
+    },
+    "thanks": {
+      "title": "Lời cảm ơn!",
+      "description": "Cảm ơn anh/chị/em đã hỗ trợ mình trong việc thu thập dữ liệu mẫu KYC lần này. Sự đóng góp của anh/chị/em giúp mình cải thiện tốc độ ra trường rất nhiều ạ. Anh/chị/em vui lòng chọn đúng giới tính trước khi lấy record random ạ.",
+      "login": "Anh/chị/em vui lòng tạo hoặc đăng nhập tài khoản tại ",
+      "recordCount": "Anh/chị/em đã record thành công {count} bản ghi."
     }
   },
   "profile": {

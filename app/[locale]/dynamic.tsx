@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/configs/i18n/routing";
 import { _ROUTE_PROFILE } from "@/constants/route";
 import { countKYCRecordsByNicknameId } from "./actions";
@@ -8,6 +10,7 @@ type Payload = {
 };
 
 const ThankUser = async () => {
+  const t = await getTranslations("home.thanks");
   const { data, error } = await countKYCRecordsByNicknameId();
   if (error) {
     throw new Error(error.message);
@@ -17,19 +20,15 @@ const ThankUser = async () => {
   if (count < 0) {
     return (
       <div>
-        <h1 className='my-2 text-center font-bold text-xl'>Lời cảm ơn!</h1>
+        <h1 className='my-2 text-center font-bold text-xl'>{t("title")}</h1>
         <div>
-          <div className='text-center'>
-            Cảm ơn anh/chị/em đã hỗ trợ mình trong việc thu thập dữ liệu mẫu KYC lần này. Sự đóng góp của anh/chị/em
-            giúp mình cải thiện tốc độ ra trường rất nhiều ạ.
-          </div>
+          <div className='text-center'>{t("description")}</div>
           <Image alt='Thank You' className='mx-auto my-4' height={200} src='/assets/chu_ngua.png' width={300} />
           <div className='text-center'>
-            Anh/chị/em vui lòng tạo hoặc đăng nhập tài khoản trước tại{" "}
+            {t("login")}
             <Link className='font-bold underline' href={_ROUTE_PROFILE}>
-              đây
-            </Link>{" "}
-            ạ.
+              link
+            </Link>
           </div>
         </div>
       </div>
@@ -38,15 +37,10 @@ const ThankUser = async () => {
 
   return (
     <div>
-      <h1 className='my-2 text-center font-bold text-xl'>Lời cảm ơn!</h1>
+      <h1 className='my-2 text-center font-bold text-xl'>{t("title")}</h1>
       <div className='space-y-4'>
-        <p className='text-center'>
-          Cảm ơn anh/chị/em đã hỗ trợ mình trong việc thu thập dữ liệu mẫu KYC lần này. Sự đóng góp của anh/chị/em giúp
-          mình cải thiện tốc độ ra trường rất nhiều ạ.
-        </p>
-        <p className='text-center'>
-          Anh/chị/em đã record thành công <strong>{count}</strong> bản ghi.
-        </p>
+        <p className='text-center'>{t("description")}</p>
+        <p className='text-center'>{t("recordCount", { count })}</p>
       </div>
     </div>
   );

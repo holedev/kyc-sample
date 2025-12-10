@@ -48,7 +48,7 @@
       "nicknamePlaceholder": "Enter your nickname here ...",
       "passwordLabel": "Password",
       "passwordPlaceholder": "Enter your password here ...",
-      "fastSignUp": "Fast Sign Up"
+      "fastSignUp": "Fast Sign Up/Sign In"
     }
   },
   "home": {
@@ -56,6 +56,12 @@
     "nickname": {
       "title": "List of Users Accessed",
       "description": "This is the list of all nicknames that have access to this website. To change your nickname, please visit"
+    },
+    "thanks": {
+      "title": "Thank you!",
+      "description": "Thank for your contribution to collect KYC sample. But my English is not good, could you please change to Vietnamese to understand better?",
+      "login": "Please login to record at ",
+      "recordCount": "You have successfully recorded {count} samples."
     }
   },
   "profile": {

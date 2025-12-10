@@ -15,7 +15,10 @@ const Profile = async ({ user }: { user: User }) => {
       <CardContent className='space-y-4'>
         <div className='flex items-center space-x-4'>
           <Avatar className='h-20 w-20'>
-            <AvatarImage alt={user?.user_metadata.full_name} src={user?.user_metadata.avatar_url} />
+            <AvatarImage
+              alt={user?.user_metadata.full_name}
+              src={user?.user_metadata.avatar_url || "/assets/chu_ngua.png"}
+            />
             <AvatarFallback>{user?.user_metadata.full_name?.charAt(0)}</AvatarFallback>
           </Avatar>
           <div>

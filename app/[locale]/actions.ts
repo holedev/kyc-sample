@@ -50,27 +50,47 @@ const countKYCRecordsByNicknameId = async () =>
     }
   });
 
-const getCacheKYCCount = async () => {
+const getCacheKYCCount = async (sex: "male" | "female") => {
   "use cache";
-  cacheTag(_CACHE_KYC_COUNT);
+  cacheTag(`${_CACHE_KYC_COUNT}::${sex}`);
 
-  console.info("[actions.ts:55] ", "getCacheKYCCount");
+  const sexMap = {
+    male: "nam",
+    female: "nữ"
+  };
 
   const totalKYC = await prisma.infoKYC.count({
-    where: { status: "PENDING" }
+    where: {
+      status: "PENDING",
+      sex: {
+        equals: sexMap[sex],
+        mode: "insensitive"
+      }
+    }
   });
 
   return totalKYC;
 };
 
-const getCacheKYCData = async () => {
+const getCacheKYCData = async (sex: "male" | "female") => {
   "use cache";
-  cacheTag(_CACHE_KYC_LIST);
+  cacheTag(`${_CACHE_KYC_LIST}::${sex}`);
 
-  console.info("[actions.ts:70] ", "getCacheKYCData");
+  const sexMap = {
+    male: "nam",
+    female: "nữ"
+  };
+
+  console.info("[actions.ts:84] ", "load get kyc dâta");
 
   const randomKYCData = await prisma.infoKYC.findMany({
-    where: { status: "PENDING" },
+    where: {
+      status: "PENDING",
+      sex: {
+        equals: sexMap[sex],
+        mode: "insensitive"
+      }
+    },
     select: {
       code: true,
       fullName: true,
@@ -85,16 +105,16 @@ const getCacheKYCData = async () => {
   return randomKYCData;
 };
 
-const getRandomKYCData = async () =>
+const getRandomKYCData = async (sex: "male" | "female") =>
   handleErrorServerNoAuth({
     cb: async () => {
-      const totalKYC = await getCacheKYCCount();
+      const totalKYC = await getCacheKYCCount(sex);
 
       if (totalKYC === 0) {
         throw new Error("No KYC records found in database");
       }
 
-      const randomKYCData = await getCacheKYCData();
+      const randomKYCData = await getCacheKYCData(sex);
 
       const randomOffset = Math.floor(Math.random() * totalKYC);
       const randomKYC = randomKYCData[randomOffset];

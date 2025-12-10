@@ -95,8 +95,10 @@ function createResponse(kycCode: string, uploadResults: UploadResult[], userId: 
   };
 
   revalidateTag(`${_CACHE_KYC_COUNT}::${userId}`, { expire: 0 });
-  revalidateTag(_CACHE_KYC_COUNT, { expire: 0 });
-  revalidateTag(_CACHE_KYC_LIST, { expire: 0 });
+  revalidateTag(`${_CACHE_KYC_COUNT}::male`, { expire: 0 });
+  revalidateTag(`${_CACHE_KYC_COUNT}::female`, { expire: 0 });
+  revalidateTag(`${_CACHE_KYC_LIST}::male`, { expire: 0 });
+  revalidateTag(`${_CACHE_KYC_LIST}::female`, { expire: 0 });
 
   if (failedCount === 0) {
     return NextResponse.json({
