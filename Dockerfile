@@ -5,7 +5,9 @@ RUN apk add --no-cache libc6-compat python3 make g++ gcc
 WORKDIR /app
 
 COPY configs/prisma/ /app/configs/prisma/
-COPY package.json pnpm-lock.yaml* prisma.config.ts .env ./
+COPY .env.example .env
+COPY package.json pnpm-lock.yaml* prisma.config.ts ./
+
 RUN \
   corepack enable pnpm && pnpm i
 
