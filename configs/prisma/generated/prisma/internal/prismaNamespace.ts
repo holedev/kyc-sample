@@ -384,7 +384,8 @@ type FieldRefInputType<Model, FieldType> = Model extends never ? never : FieldRe
 
 
 export const ModelName = {
-  Nickname: 'Nickname'
+  Nickname: 'Nickname',
+  InfoKYC: 'InfoKYC'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -400,7 +401,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "nickname"
+    modelProps: "nickname" | "infoKYC"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -478,6 +479,80 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         }
       }
     }
+    InfoKYC: {
+      payload: Prisma.$InfoKYCPayload<ExtArgs>
+      fields: Prisma.InfoKYCFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.InfoKYCFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.InfoKYCFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload>
+        }
+        findFirst: {
+          args: Prisma.InfoKYCFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.InfoKYCFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload>
+        }
+        findMany: {
+          args: Prisma.InfoKYCFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload>[]
+        }
+        create: {
+          args: Prisma.InfoKYCCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload>
+        }
+        createMany: {
+          args: Prisma.InfoKYCCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.InfoKYCCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload>[]
+        }
+        delete: {
+          args: Prisma.InfoKYCDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload>
+        }
+        update: {
+          args: Prisma.InfoKYCUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload>
+        }
+        deleteMany: {
+          args: Prisma.InfoKYCDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.InfoKYCUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.InfoKYCUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload>[]
+        }
+        upsert: {
+          args: Prisma.InfoKYCUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$InfoKYCPayload>
+        }
+        aggregate: {
+          args: Prisma.InfoKYCAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateInfoKYC>
+        }
+        groupBy: {
+          args: Prisma.InfoKYCGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.InfoKYCGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.InfoKYCCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.InfoKYCCountAggregateOutputType> | number
+        }
+      }
+    }
   }
 } & {
   other: {
@@ -528,6 +603,23 @@ export const NicknameScalarFieldEnum = {
 export type NicknameScalarFieldEnum = (typeof NicknameScalarFieldEnum)[keyof typeof NicknameScalarFieldEnum]
 
 
+export const InfoKYCScalarFieldEnum = {
+  id: 'id',
+  code: 'code',
+  fullName: 'fullName',
+  birthday: 'birthday',
+  sex: 'sex',
+  identity: 'identity',
+  phone: 'phone',
+  status: 'status',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt',
+  nicknameId: 'nicknameId'
+} as const
+
+export type InfoKYCScalarFieldEnum = (typeof InfoKYCScalarFieldEnum)[keyof typeof InfoKYCScalarFieldEnum]
+
+
 export const SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -542,6 +634,14 @@ export const QueryMode = {
 } as const
 
 export type QueryMode = (typeof QueryMode)[keyof typeof QueryMode]
+
+
+export const NullsOrder = {
+  first: 'first',
+  last: 'last'
+} as const
+
+export type NullsOrder = (typeof NullsOrder)[keyof typeof NullsOrder]
 
 
 
@@ -589,6 +689,20 @@ export type DateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel
  * Reference to a field of type 'DateTime[]'
  */
 export type ListDateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DateTime[]'>
+    
+
+
+/**
+ * Reference to a field of type 'Status'
+ */
+export type EnumStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Status'>
+    
+
+
+/**
+ * Reference to a field of type 'Status[]'
+ */
+export type ListEnumStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Status[]'>
     
 
 
@@ -701,6 +815,7 @@ export type PrismaClientOptions = ({
 }
 export type GlobalOmitConfig = {
   nickname?: Prisma.NicknameOmit
+  infoKYC?: Prisma.InfoKYCOmit
 }
 
 /* Types for Logging */

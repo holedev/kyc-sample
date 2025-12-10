@@ -9,4 +9,5 @@
  * 🟢 You can import this file directly.
  */
 export type * from './models/Nickname'
+export type * from './models/InfoKYC'
 export type * from './commonInputTypes'

@@ -1,0 +1,3978 @@
+[
+  {
+    "code": "CQ01",
+    "fullName": "ĐỖ THANH QUANG",
+    "sex": "nam",
+    "birthday": "2009-11-18",
+    "identity": "002298567138",
+    "phone": "0368228631"
+  },
+  {
+    "code": "CQ02",
+    "fullName": "PHAN QUỐC DUYÊN",
+    "sex": "nữ",
+    "birthday": "2020-02-12",
+    "identity": "034909852244",
+    "phone": "0943029765"
+  },
+  {
+    "code": "CQ03",
+    "fullName": "NGỌC NGỌC KHÁNH",
+    "sex": "nam",
+    "birthday": "2014-09-12",
+    "identity": "080840041314",
+    "phone": "0358485716"
+  },
+  {
+    "code": "CQ04",
+    "fullName": "MAI HỮU KHANG",
+    "sex": "nam",
+    "birthday": "1984-09-16",
+    "identity": "054476652574",
+    "phone": "0355476425"
+  },
+  {
+    "code": "CQ05",
+    "fullName": "Vũ Ngọc Lưu",
+    "sex": "nam",
+    "birthday": "1989-06-19",
+    "identity": "068217180483",
+    "phone": "0893580754"
+  },
+  {
+    "code": "CQ06",
+    "fullName": "VŨ MINH HUY",
+    "sex": "nam",
+    "birthday": "1993-06-05",
+    "identity": "006660854500",
+    "phone": "0888339356"
+  },
+  {
+    "code": "CQ07",
+    "fullName": "HỒ VĂN TÂM",
+    "sex": "nam",
+    "birthday": "2010-11-26",
+    "identity": "049469923303",
+    "phone": "0337418284"
+  },
+  {
+    "code": "CQ08",
+    "fullName": "ĐỖ GIA HÒA",
+    "sex": "nam",
+    "birthday": "2022-12-04",
+    "identity": "034608234525",
+    "phone": "0941146804"
+  },
+  {
+    "code": "CQ09",
+    "fullName": "VÕ THỊ VINH",
+    "sex": "nữ",
+    "birthday": "1986-01-18",
+    "identity": "060176205000",
+    "phone": "0339532967"
+  },
+  {
+    "code": "CQ10",
+    "fullName": "TẠ NGỌC NHÂN",
+    "sex": "nam",
+    "birthday": "1991-12-03",
+    "identity": "033224164759",
+    "phone": "0887138159"
+  },
+  {
+    "code": "CQ11",
+    "fullName": "Hà Gia Dũng",
+    "sex": "Nam",
+    "birthday": "2020-12-19",
+    "identity": "001121241806",
+    "phone": "0331677813"
+  },
+  {
+    "code": "CQ12",
+    "fullName": "TẠ ĐÌNH THÚY",
+    "sex": "Nữ",
+    "birthday": "2014-06-07",
+    "identity": "058829247238",
+    "phone": "0824202436"
+  },
+  {
+    "code": "CQ13",
+    "fullName": "NGỌC VĂN LINH",
+    "sex": "nam",
+    "birthday": "2012-07-21",
+    "identity": "002482689232",
+    "phone": "0529394596"
+  },
+  {
+    "code": "CQ14",
+    "fullName": "PHAN NGỌC HÒA",
+    "sex": "nữ",
+    "birthday": "2013-12-19",
+    "identity": "093350786033",
+    "phone": "0376106281"
+  },
+  {
+    "code": "CQ15",
+    "fullName": "PHẠM NGỌC THÁI",
+    "sex": "nữ",
+    "birthday": "2005-04-04",
+    "identity": "056306307408",
+    "phone": "0871359553"
+  },
+  {
+    "code": "CQ16",
+    "fullName": "ĐẶNG MINH CHI",
+    "sex": "Nữ",
+    "birthday": "2014-06-20",
+    "identity": "019479406951",
+    "phone": "0327808603"
+  },
+  {
+    "code": "CQ17",
+    "fullName": "HOÀNG THANH HUY",
+    "sex": "nam",
+    "birthday": "2021-02-14",
+    "identity": "010176533182",
+    "phone": "0701976849"
+  },
+  {
+    "code": "CQ18",
+    "fullName": "DƯƠNG THANH HUY",
+    "sex": "nam",
+    "birthday": "2016-08-11",
+    "identity": "094910867933",
+    "phone": "0913632563"
+  },
+  {
+    "code": "CQ19",
+    "fullName": "TẠ HỮU YẾN",
+    "sex": "nữ",
+    "birthday": "2018-10-02",
+    "identity": "096560416203",
+    "phone": "0703972828"
+  },
+  {
+    "code": "CQ20",
+    "fullName": "TRỊNH HỮU LƯU",
+    "sex": "nam",
+    "birthday": "2016-06-08",
+    "identity": "046326607284",
+    "phone": "0365624571"
+  },
+  {
+    "code": "CQ21",
+    "fullName": "VÕ NGỌC KHÁNH",
+    "sex": "nữ",
+    "birthday": "2016-12-29",
+    "identity": "001926186972",
+    "phone": "0892030193"
+  },
+  {
+    "code": "CQ22",
+    "fullName": "PHẠM MINH LINH",
+    "sex": "nữ",
+    "birthday": "2009-01-22",
+    "identity": "012801140705",
+    "phone": "0798732792"
+  },
+  {
+    "code": "CQ23",
+    "fullName": "BÙI MINH VŨ",
+    "sex": "nam",
+    "birthday": "1991-10-24",
+    "identity": "049899714796",
+    "phone": "0561324894"
+  },
+  {
+    "code": "CQ24",
+    "fullName": "MAI MINH HÒA",
+    "sex": "nữ",
+    "birthday": "2009-06-08",
+    "identity": "083337203602",
+    "phone": "0366466278"
+  },
+  {
+    "code": "CQ25",
+    "fullName": "PHAN MINH TIẾN",
+    "sex": "nữ",
+    "birthday": "1992-07-02",
+    "identity": "077832454430",
+    "phone": "0528432956"
+  },
+  {
+    "code": "CQ26",
+    "fullName": "ĐẶNG KHÁNH THÀNH",
+    "sex": "nam",
+    "birthday": "2016-11-17",
+    "identity": "025744635236",
+    "phone": "0358508677"
+  },
+  {
+    "code": "CQ27",
+    "fullName": "TRÍ THANH TRANG",
+    "sex": "Nữ",
+    "birthday": "2003-01-18",
+    "identity": "011653383817",
+    "phone": "0343876251"
+  },
+  {
+    "code": "CQ28",
+    "fullName": "ĐỖ KHÁNH NAM",
+    "sex": "nam",
+    "birthday": "2003-10-05",
+    "identity": "034633457637",
+    "phone": "0592019797"
+  },
+  {
+    "code": "CQ29",
+    "fullName": "VƯƠNG THỊ HỒNG",
+    "sex": "Nữ",
+    "birthday": "1998-11-13",
+    "identity": "017555544665",
+    "phone": "0969541854"
+  },
+  {
+    "code": "CQ30",
+    "fullName": "VƯƠNG GIA CHI",
+    "sex": "nữ",
+    "birthday": "1991-01-17",
+    "identity": "089192462058",
+    "phone": "0798630936"
+  },
+  {
+    "code": "CQ31",
+    "fullName": "TẠ KHÁNH KHANG",
+    "sex": "Nam",
+    "birthday": "2016-05-22",
+    "identity": "080962357480",
+    "phone": "0966926654"
+  },
+  {
+    "code": "CQ32",
+    "fullName": "HÀ NGỌC QUỐC",
+    "sex": "nữ",
+    "birthday": "2020-04-25",
+    "identity": "089387266977",
+    "phone": "0914740130"
+  },
+  {
+    "code": "CQ33",
+    "fullName": "VƯƠNG GIA MINH",
+    "sex": "nam",
+    "birthday": "2017-09-18",
+    "identity": "048460694189",
+    "phone": "0704436146"
+  },
+  {
+    "code": "CQ34",
+    "fullName": "ĐẶNG THANH DUYÊN",
+    "sex": "nữ",
+    "birthday": "2015-12-22",
+    "identity": "093184405153",
+    "phone": "0947018378"
+  },
+  {
+    "code": "CQ35",
+    "fullName": "VÕ QUỐC KHOA",
+    "sex": "nam",
+    "birthday": "2010-09-08",
+    "identity": "089451563813",
+    "phone": "0932616053"
+  },
+  {
+    "code": "CQ36",
+    "fullName": "ĐỖ GIA XUÂN",
+    "sex": "nam",
+    "birthday": "2011-01-08",
+    "identity": "044523695510",
+    "phone": "0329744933"
+  },
+  {
+    "code": "CQ37",
+    "fullName": "LÂM KHÁNH LINH",
+    "sex": "nữ",
+    "birthday": "2023-05-31",
+    "identity": "004951446141",
+    "phone": "0584180728"
+  },
+  {
+    "code": "CQ38",
+    "fullName": "LÊ MINH SƠN",
+    "sex": "Nam",
+    "birthday": "2015-12-12",
+    "identity": "031781693892",
+    "phone": "0582189498"
+  },
+  {
+    "code": "CQ39",
+    "fullName": "LƯƠNG MINH CẨM",
+    "sex": "nam",
+    "birthday": "1998-11-12",
+    "identity": "012455955572",
+    "phone": "0568758711"
+  },
+  {
+    "code": "CQ40",
+    "fullName": "HÀ NGỌC QUỐC",
+    "sex": "nam",
+    "birthday": "2015-06-22",
+    "identity": "002346073388",
+    "phone": "0856433535"
+  },
+  {
+    "code": "CQ41",
+    "fullName": "LÂM QUỐC TUYẾT",
+    "sex": "Nữ",
+    "birthday": "2006-03-29",
+    "identity": "038686744462",
+    "phone": "0942501023"
+  },
+  {
+    "code": "CQ42",
+    "fullName": "TRỊNH QUỐC HÒA",
+    "sex": "nam",
+    "birthday": "1993-07-05",
+    "identity": "045639375273",
+    "phone": "0391935674"
+  },
+  {
+    "code": "CQ43",
+    "fullName": "ĐỖ ĐÌNH HÒA",
+    "sex": "nữ",
+    "birthday": "2020-02-18",
+    "identity": "038418064846",
+    "phone": "0844386956"
+  },
+  {
+    "code": "CQ44",
+    "fullName": "LÊ MINH LAN",
+    "sex": "Nữ",
+    "birthday": "2013-11-10",
+    "identity": "030824583302",
+    "phone": "0848239539"
+  },
+  {
+    "code": "CQ45",
+    "fullName": "ĐẶNG MINH XUÂN",
+    "sex": "nam",
+    "birthday": "2016-12-15",
+    "identity": "089262697462",
+    "phone": "0364774023"
+  },
+  {
+    "code": "CQ46",
+    "fullName": "ĐỖ VĂN LINH",
+    "sex": "nam",
+    "birthday": "2011-05-29",
+    "identity": "089234137690",
+    "phone": "0899266716"
+  },
+  {
+    "code": "CQ47",
+    "fullName": "VŨ THANH TRÍ",
+    "sex": "nam",
+    "birthday": "2018-10-06",
+    "identity": "060590305810",
+    "phone": "0359908115"
+  },
+  {
+    "code": "CQ48",
+    "fullName": "HỒ THỊ THẢO",
+    "sex": "Nữ",
+    "birthday": "2019-01-18",
+    "identity": "011864498531",
+    "phone": "0784192051"
+  },
+  {
+    "code": "CQ49",
+    "fullName": "VŨ QUỐC LAN",
+    "sex": "Nữ",
+    "birthday": "2023-01-20",
+    "identity": "017443877162",
+    "phone": "0351242387"
+  },
+  {
+    "code": "CQ50",
+    "fullName": "NGUYỄN MINH NAM",
+    "sex": "Nam",
+    "birthday": "2009-06-28",
+    "identity": "004850821620",
+    "phone": "0989223736"
+  },
+  {
+    "code": "CQ51",
+    "fullName": "HÀ GIA LƯU",
+    "sex": "nữ",
+    "birthday": "2004-07-18",
+    "identity": "058795022712",
+    "phone": "0774268225"
+  },
+  {
+    "code": "CQ52",
+    "fullName": "LÊ MINH THÀNH",
+    "sex": "nam",
+    "birthday": "2008-04-01",
+    "identity": "058718391066",
+    "phone": "0524806190"
+  },
+  {
+    "code": "CQ53",
+    "fullName": "BÙI THANH XUÂN",
+    "sex": "nam",
+    "birthday": "2005-06-04",
+    "identity": "092272131238",
+    "phone": "0836555964"
+  },
+  {
+    "code": "CQ54",
+    "fullName": "HOÀNG VĂN MINH",
+    "sex": "Nam",
+    "birthday": "1989-01-05",
+    "identity": "040951913102",
+    "phone": "0914250841"
+  },
+  {
+    "code": "CQ55",
+    "fullName": "HÀ MINH QUỐC",
+    "sex": "nam",
+    "birthday": "1992-06-12",
+    "identity": "001744626337",
+    "phone": "0767892723"
+  },
+  {
+    "code": "CQ56",
+    "fullName": "PHẠM GIA VINH",
+    "sex": "nam",
+    "birthday": "2017-08-24",
+    "identity": "074299400360",
+    "phone": "0359817227"
+  },
+  {
+    "code": "CQ57",
+    "fullName": "Ngô Gia Trí",
+    "sex": "nam",
+    "birthday": "1977-11-21",
+    "identity": "074152189321",
+    "phone": "0387680052"
+  },
+  {
+    "code": "CQ58",
+    "fullName": "ĐỖ HỮU THÀNH",
+    "sex": "Nam",
+    "birthday": "2017-10-25",
+    "identity": "049955616883",
+    "phone": "0589846458"
+  },
+  {
+    "code": "CQ59",
+    "fullName": "ĐẶNG ĐÌNH XUÂN",
+    "sex": "nam",
+    "birthday": "2020-01-23",
+    "identity": "024651559698",
+    "phone": "0585564202"
+  },
+  {
+    "code": "CQ60",
+    "fullName": "DƯƠNG NGỌC SƠN",
+    "sex": "Nam",
+    "birthday": "2020-06-08",
+    "identity": "058523076753",
+    "phone": "0872439081"
+  },
+  {
+    "code": "CQ61",
+    "fullName": "HỒ KHÁNH LINH",
+    "sex": "nam",
+    "birthday": "2010-03-07",
+    "identity": "051369195182",
+    "phone": "0362536227"
+  },
+  {
+    "code": "CQ62",
+    "fullName": "BẠCH NGỌC TÚ",
+    "sex": "nữ",
+    "birthday": "1988-05-11",
+    "identity": "068475940595",
+    "phone": "0889381869"
+  },
+  {
+    "code": "CQ63",
+    "fullName": "TRỊNH MINH NHÂN",
+    "sex": "nữ",
+    "birthday": "2008-12-06",
+    "identity": "035149570898",
+    "phone": "0384867262"
+  },
+  {
+    "code": "CQ64",
+    "fullName": "TẠ QUỐC MỸ",
+    "sex": "nam",
+    "birthday": "2019-05-14",
+    "identity": "034921923410",
+    "phone": "0526561017"
+  },
+  {
+    "code": "CQ65",
+    "fullName": "ĐẶNG QUỐC VY",
+    "sex": "Nữ",
+    "birthday": "2008-02-21",
+    "identity": "017598798757",
+    "phone": "0915253697"
+  },
+  {
+    "code": "CQ66",
+    "fullName": "NGUYỄN THANH NGỌC",
+    "sex": "Nữ",
+    "birthday": "2005-12-24",
+    "identity": "004301065423",
+    "phone": "0388203276"
+  },
+  {
+    "code": "CQ67",
+    "fullName": "DƯƠNG THỊ BÌNH",
+    "sex": "Nữ",
+    "birthday": "2022-11-12",
+    "identity": "035657676263",
+    "phone": "0988871969"
+  },
+  {
+    "code": "CQ68",
+    "fullName": "HỒ THỊ NGỌC",
+    "sex": "nữ",
+    "birthday": "2003-07-16",
+    "identity": "046415938918",
+    "phone": "0373205605"
+  },
+  {
+    "code": "CQ69",
+    "fullName": "DƯƠNG MINH THẢO",
+    "sex": "nữ",
+    "birthday": "2004-08-16",
+    "identity": "044308650585",
+    "phone": "0783793053"
+  },
+  {
+    "code": "CQ70",
+    "fullName": "PHẠM MINH CẨM",
+    "sex": "nữ",
+    "birthday": "2014-01-06",
+    "identity": "079998961278",
+    "phone": "0593273137"
+  },
+  {
+    "code": "CQ71",
+    "fullName": "Ngọc Đình Hải",
+    "sex": "nam",
+    "birthday": "2021-05-02",
+    "identity": "079679978693",
+    "phone": "0886005585"
+  },
+  {
+    "code": "CQ72",
+    "fullName": "Lê Quốc Trí",
+    "sex": "nam",
+    "birthday": "2013-08-15",
+    "identity": "074184313515",
+    "phone": "0849674062"
+  },
+  {
+    "code": "CQ73",
+    "fullName": "TRẦN ĐÌNH TRUNG",
+    "sex": "nữ",
+    "birthday": "1993-02-13",
+    "identity": "067159267145",
+    "phone": "0846053787"
+  },
+  {
+    "code": "CQ74",
+    "fullName": "ĐẶNG KHÁNH HÒA",
+    "sex": "nam",
+    "birthday": "2012-11-09",
+    "identity": "095508940669",
+    "phone": "0599282572"
+  },
+  {
+    "code": "CQ75",
+    "fullName": "PHAN VĂN THÀNH",
+    "sex": "Nam",
+    "birthday": "1994-01-12",
+    "identity": "019292017694",
+    "phone": "0338050013"
+  },
+  {
+    "code": "CQ76",
+    "fullName": "PHẠM GIA DUYÊN",
+    "sex": "nữ",
+    "birthday": "2016-10-15",
+    "identity": "046953553765",
+    "phone": "0764450782"
+  },
+  {
+    "code": "CQ77",
+    "fullName": "Ngô Đình Tùng",
+    "sex": "Nam",
+    "birthday": "2002-02-21",
+    "identity": "027610117468",
+    "phone": "0902136460"
+  },
+  {
+    "code": "CQ78",
+    "fullName": "HƯNG GIA DUY",
+    "sex": "nam",
+    "birthday": "2014-03-13",
+    "identity": "089460452524",
+    "phone": "0847631781"
+  },
+  {
+    "code": "CQ79",
+    "fullName": "LÝ HỮU TÚ",
+    "sex": "nam",
+    "birthday": "2000-11-05",
+    "identity": "082756274445",
+    "phone": "0817659942"
+  },
+  {
+    "code": "CQ80",
+    "fullName": "TRỊNH QUỐC CHI",
+    "sex": "Nữ",
+    "birthday": "2010-08-06",
+    "identity": "062658520993",
+    "phone": "0323386066"
+  },
+  {
+    "code": "CQ81",
+    "fullName": "NGÔ ĐÌNH XUÂN",
+    "sex": "nam",
+    "birthday": "2011-11-29",
+    "identity": "067334711012",
+    "phone": "0918499556"
+  },
+  {
+    "code": "CQ82",
+    "fullName": "Trịnh Quốc Nhân",
+    "sex": "nữ",
+    "birthday": "2005-12-05",
+    "identity": "046639359251",
+    "phone": "0344607038"
+  },
+  {
+    "code": "CQ83",
+    "fullName": "TRẦN NGỌC LƯU",
+    "sex": "nữ",
+    "birthday": "2010-02-16",
+    "identity": "025916472992",
+    "phone": "0949681054"
+  },
+  {
+    "code": "CQ84",
+    "fullName": "VƯƠNG ĐÌNH ANH",
+    "sex": "nam",
+    "birthday": "2012-08-12",
+    "identity": "086891279818",
+    "phone": "0935948127"
+  },
+  {
+    "code": "CQ85",
+    "fullName": "Lý Thị Lê",
+    "sex": "Nữ",
+    "birthday": "1991-09-06",
+    "identity": "070972306144",
+    "phone": "0393626001"
+  },
+  {
+    "code": "CQ86",
+    "fullName": "PHẠM ĐÌNH HẢI",
+    "sex": "Nam",
+    "birthday": "2012-07-17",
+    "identity": "035936655498",
+    "phone": "0934508376"
+  },
+  {
+    "code": "CQ87",
+    "fullName": "LÂM QUỐC LÊ",
+    "sex": "nam",
+    "birthday": "1991-01-29",
+    "identity": "072430575838",
+    "phone": "0771029172"
+  },
+  {
+    "code": "CQ88",
+    "fullName": "NGỌC NGỌC NGỌC",
+    "sex": "Nữ",
+    "birthday": "2022-04-15",
+    "identity": "004646628025",
+    "phone": "0775683802"
+  },
+  {
+    "code": "CQ89",
+    "fullName": "MAI NGỌC HƯƠNG",
+    "sex": "Nữ",
+    "birthday": "2001-04-11",
+    "identity": "035678353654",
+    "phone": "0783749448"
+  },
+  {
+    "code": "CQ90",
+    "fullName": "TRỊNH THANH DUY",
+    "sex": "nữ",
+    "birthday": "1998-06-18",
+    "identity": "056724259996",
+    "phone": "0761927588"
+  },
+  {
+    "code": "CQ91",
+    "fullName": "HÀ HỮU THÁI",
+    "sex": "nam",
+    "birthday": "2000-06-02",
+    "identity": "045550371933",
+    "phone": "0395348107"
+  },
+  {
+    "code": "CQ92",
+    "fullName": "NGỌC THANH TUYẾT",
+    "sex": "Nữ",
+    "birthday": "2020-03-20",
+    "identity": "095215440636",
+    "phone": "0356085539"
+  },
+  {
+    "code": "CQ93",
+    "fullName": "PHẠM NGỌC BÌNH",
+    "sex": "nữ",
+    "birthday": "1984-05-02",
+    "identity": "056619083233",
+    "phone": "0931307151"
+  },
+  {
+    "code": "CQ94",
+    "fullName": "VÕ HỮU HƯƠNG",
+    "sex": "Nữ",
+    "birthday": "2023-07-26",
+    "identity": "087294422334",
+    "phone": "0775749111"
+  },
+  {
+    "code": "CQ95",
+    "fullName": "PHAN KHÁNH TUYẾT",
+    "sex": "Nữ",
+    "birthday": "1995-12-27",
+    "identity": "037831498078",
+    "phone": "0788706999"
+  },
+  {
+    "code": "CQ96",
+    "fullName": "HÀ MINH LƯU",
+    "sex": "nam",
+    "birthday": "2023-11-09",
+    "identity": "036650322438",
+    "phone": "0351247244"
+  },
+  {
+    "code": "CQ97",
+    "fullName": "HOÀNG THANH TRANG",
+    "sex": "Nữ",
+    "birthday": "1984-05-04",
+    "identity": "036196205683",
+    "phone": "0826194232"
+  },
+  {
+    "code": "CQ98",
+    "fullName": "LÝ GIA XUÂN",
+    "sex": "nữ",
+    "birthday": "1992-08-03",
+    "identity": "010575071566",
+    "phone": "0366122327"
+  },
+  {
+    "code": "CQ99",
+    "fullName": "HỒ QUỐC THÀNH",
+    "sex": "nam",
+    "birthday": "2008-06-25",
+    "identity": "093424990621",
+    "phone": "0915783653"
+  },
+  {
+    "code": "CQ100",
+    "fullName": "BẠCH THỊ CẨM",
+    "sex": "Nữ",
+    "birthday": "2016-08-17",
+    "identity": "095358847907",
+    "phone": "0784754477"
+  },
+  {
+    "code": "CQ101",
+    "fullName": "LÊ GIA TRUNG",
+    "sex": "nữ",
+    "birthday": "2011-11-02",
+    "identity": "086957990587",
+    "phone": "0339201502"
+  },
+  {
+    "code": "CQ102",
+    "fullName": "TRÍ NGỌC TIẾN",
+    "sex": "nam",
+    "birthday": "1996-07-22",
+    "identity": "027795825036",
+    "phone": "0891125555"
+  },
+  {
+    "code": "CQ103",
+    "fullName": "TRẦN NGỌC TRUNG",
+    "sex": "nữ",
+    "birthday": "2003-10-23",
+    "identity": "025696360690",
+    "phone": "0322632741"
+  },
+  {
+    "code": "CQ104",
+    "fullName": "HỒ THANH DUYÊN",
+    "sex": "nam",
+    "birthday": "2003-04-03",
+    "identity": "022762760375",
+    "phone": "0354944247"
+  },
+  {
+    "code": "CQ105",
+    "fullName": "VƯƠNG VĂN MINH",
+    "sex": "Nam",
+    "birthday": "2018-02-13",
+    "identity": "074908845464",
+    "phone": "0934039988"
+  },
+  {
+    "code": "CQ106",
+    "fullName": "HƯNG THANH QUỐC",
+    "sex": "nữ",
+    "birthday": "2007-10-21",
+    "identity": "077491459973",
+    "phone": "0872045459"
+  },
+  {
+    "code": "CQ107",
+    "fullName": "Lý Văn Tùng",
+    "sex": "nam",
+    "birthday": "2020-07-02",
+    "identity": "080279850906",
+    "phone": "0589194416"
+  },
+  {
+    "code": "CQ108",
+    "fullName": "Ngô Thị Toàn",
+    "sex": "Nam",
+    "birthday": "1974-11-29",
+    "identity": "038621932873",
+    "phone": "0813987974"
+  },
+  {
+    "code": "CQ109",
+    "fullName": "VŨ HỮU KHÁNH",
+    "sex": "nam",
+    "birthday": "1998-05-07",
+    "identity": "026110765542",
+    "phone": "0995864569"
+  },
+  {
+    "code": "CQ110",
+    "fullName": "VƯƠNG VĂN TIẾN",
+    "sex": "nam",
+    "birthday": "2008-10-28",
+    "identity": "060128070654",
+    "phone": "0368756701"
+  },
+  {
+    "code": "CQ111",
+    "fullName": "TRƯƠNG THANH DUY",
+    "sex": "nữ",
+    "birthday": "1999-01-12",
+    "identity": "036200821207",
+    "phone": "0967832677"
+  },
+  {
+    "code": "CQ112",
+    "fullName": "NGÔ ĐÌNH TRÍ",
+    "sex": "nam",
+    "birthday": "2007-07-18",
+    "identity": "004758872115",
+    "phone": "0895591549"
+  },
+  {
+    "code": "CQ113",
+    "fullName": "TRÍ THỊ KHÁNH",
+    "sex": "Nữ",
+    "birthday": "2006-04-12",
+    "identity": "035226258775",
+    "phone": "0873226683"
+  },
+  {
+    "code": "CQ114",
+    "fullName": "Tạ Văn Hải",
+    "sex": "Nam",
+    "birthday": "2021-11-02",
+    "identity": "092645754009",
+    "phone": "0351888222"
+  },
+  {
+    "code": "CQ115",
+    "fullName": "TRƯƠNG THANH VỸ",
+    "sex": "nữ",
+    "birthday": "2021-12-17",
+    "identity": "038614034892",
+    "phone": "0354645099"
+  },
+  {
+    "code": "CQ116",
+    "fullName": "NGỌC ĐÌNH CHI",
+    "sex": "nữ",
+    "birthday": "1986-11-13",
+    "identity": "012781550309",
+    "phone": "0331632490"
+  },
+  {
+    "code": "CQ117",
+    "fullName": "HỒ THỊ NGỌC",
+    "sex": "Nữ",
+    "birthday": "2017-01-31",
+    "identity": "072378600431",
+    "phone": "0591476472"
+  },
+  {
+    "code": "CQ118",
+    "fullName": "NGUYỄN QUỐC QUANG",
+    "sex": "Nam",
+    "birthday": "2007-10-07",
+    "identity": "066927137085",
+    "phone": "0345638194"
+  },
+  {
+    "code": "CQ119",
+    "fullName": "HÀ THANH VINH",
+    "sex": "nữ",
+    "birthday": "2016-11-01",
+    "identity": "070925274443",
+    "phone": "0356231235"
+  },
+  {
+    "code": "CQ120",
+    "fullName": "PHAN GIA VY",
+    "sex": "Nữ",
+    "birthday": "2009-04-14",
+    "identity": "034299280089",
+    "phone": "0889153215"
+  },
+  {
+    "code": "CQ121",
+    "fullName": "NGÔ ĐÌNH TOÀN",
+    "sex": "Nam",
+    "birthday": "1978-04-29",
+    "identity": "087393164034",
+    "phone": "0889463413"
+  },
+  {
+    "code": "CQ122",
+    "fullName": "PHẠM MINH TIẾN",
+    "sex": "nữ",
+    "birthday": "2012-12-21",
+    "identity": "066242331605",
+    "phone": "0363409157"
+  },
+  {
+    "code": "CQ123",
+    "fullName": "TRƯƠNG NGỌC DUY",
+    "sex": "nữ",
+    "birthday": "2015-04-06",
+    "identity": "093519397027",
+    "phone": "0902146970"
+  },
+  {
+    "code": "CQ124",
+    "fullName": "TẠ KHÁNH VỸ",
+    "sex": "nữ",
+    "birthday": "2016-09-27",
+    "identity": "037124554973",
+    "phone": "0891687125"
+  },
+  {
+    "code": "CQ125",
+    "fullName": "PHAN HỮU MỸ",
+    "sex": "nam",
+    "birthday": "2022-04-09",
+    "identity": "026686565786",
+    "phone": "0598231608"
+  },
+  {
+    "code": "CQ126",
+    "fullName": "Đặng Khánh Quang",
+    "sex": "nam",
+    "birthday": "2006-02-05",
+    "identity": "046827940612",
+    "phone": "0353231164"
+  },
+  {
+    "code": "CQ127",
+    "fullName": "VÕ GIA HÀ",
+    "sex": "nam",
+    "birthday": "2013-11-03",
+    "identity": "035265469968",
+    "phone": "0585193005"
+  },
+  {
+    "code": "CQ128",
+    "fullName": "ĐỖ ĐÌNH TIẾN",
+    "sex": "nữ",
+    "birthday": "2023-10-14",
+    "identity": "060924900797",
+    "phone": "0943458286"
+  },
+  {
+    "code": "CQ129",
+    "fullName": "NGÔ NGỌC VY",
+    "sex": "nữ",
+    "birthday": "2015-05-19",
+    "identity": "017218056216",
+    "phone": "0945629253"
+  },
+  {
+    "code": "CQ130",
+    "fullName": "TRỊNH GIA HÒA",
+    "sex": "nam",
+    "birthday": "1999-05-20",
+    "identity": "008944585042",
+    "phone": "0343213624"
+  },
+  {
+    "code": "CQ131",
+    "fullName": "LÝ GIA THÀNH",
+    "sex": "nam",
+    "birthday": "1982-09-04",
+    "identity": "034970346044",
+    "phone": "0599590148"
+  },
+  {
+    "code": "CQ132",
+    "fullName": "VŨ KHÁNH NAM",
+    "sex": "nam",
+    "birthday": "2019-06-06",
+    "identity": "015215603407",
+    "phone": "0779781619"
+  },
+  {
+    "code": "CQ133",
+    "fullName": "VŨ HỮU TÂM",
+    "sex": "nữ",
+    "birthday": "2014-06-05",
+    "identity": "084406457519",
+    "phone": "0569658474"
+  },
+  {
+    "code": "CQ134",
+    "fullName": "HOÀNG HỮU THÚY",
+    "sex": "Nữ",
+    "birthday": "2022-07-13",
+    "identity": "093470232699",
+    "phone": "0587564854"
+  },
+  {
+    "code": "CQ135",
+    "fullName": "TRẦN THỊ THÚY",
+    "sex": "nữ",
+    "birthday": "2021-04-18",
+    "identity": "048647908388",
+    "phone": "0567915918"
+  },
+  {
+    "code": "CQ136",
+    "fullName": "LƯƠNG ĐÌNH NAM",
+    "sex": "Nam",
+    "birthday": "2014-04-19",
+    "identity": "094858049849",
+    "phone": "0786982383"
+  },
+  {
+    "code": "CQ137",
+    "fullName": "VƯƠNG HỮU TRUNG",
+    "sex": "nữ",
+    "birthday": "2015-04-21",
+    "identity": "049937039060",
+    "phone": "0589585426"
+  },
+  {
+    "code": "CQ138",
+    "fullName": "HỒ MINH VINH",
+    "sex": "nam",
+    "birthday": "2023-01-19",
+    "identity": "062456573326",
+    "phone": "0397455663"
+  },
+  {
+    "code": "CQ139",
+    "fullName": "VÕ GIA VÂN",
+    "sex": "nữ",
+    "birthday": "1994-05-08",
+    "identity": "048282655708",
+    "phone": "0827542514"
+  },
+  {
+    "code": "CQ140",
+    "fullName": "Trí Đình Lê",
+    "sex": "nữ",
+    "birthday": "2018-10-01",
+    "identity": "008655285725",
+    "phone": "0875498660"
+  },
+  {
+    "code": "CQ141",
+    "fullName": "NGUYỄN TẤN TÀI",
+    "sex": "nam",
+    "birthday": "1998-12-29",
+    "identity": "019592792870",
+    "phone": "0599070835"
+  },
+  {
+    "code": "CQ142",
+    "fullName": "NGÔ HỮU THẢO",
+    "sex": "Nữ",
+    "birthday": "2012-04-24",
+    "identity": "095827158342",
+    "phone": "0892930119"
+  },
+  {
+    "code": "CQ143",
+    "fullName": "TẠ VĂN DŨNG",
+    "sex": "Nam",
+    "birthday": "2017-01-18",
+    "identity": "094110223910",
+    "phone": "0322083796"
+  },
+  {
+    "code": "CQ144",
+    "fullName": "DƯƠNG KHÁNH LAN",
+    "sex": "nữ",
+    "birthday": "2021-11-21",
+    "identity": "044935845015",
+    "phone": "0963326979"
+  },
+  {
+    "code": "CQ145",
+    "fullName": "LÝ QUỐC NHÂN",
+    "sex": "nam",
+    "birthday": "2016-04-18",
+    "identity": "083135704383",
+    "phone": "0385472228"
+  },
+  {
+    "code": "CQ146",
+    "fullName": "BÙI ĐÌNH ANH",
+    "sex": "nữ",
+    "birthday": "2019-10-09",
+    "identity": "056710305574",
+    "phone": "0847180358"
+  },
+  {
+    "code": "CQ147",
+    "fullName": "PHAN THỊ VÂN",
+    "sex": "nữ",
+    "birthday": "1997-08-13",
+    "identity": "060595746343",
+    "phone": "0849521016"
+  },
+  {
+    "code": "CQ148",
+    "fullName": "NGỌC ĐÌNH ANH",
+    "sex": "nam",
+    "birthday": "2017-04-25",
+    "identity": "025480574597",
+    "phone": "0364855603"
+  },
+  {
+    "code": "CQ149",
+    "fullName": "HÀ VĂN TIẾN",
+    "sex": "Nam",
+    "birthday": "1981-02-25",
+    "identity": "022721246383",
+    "phone": "0963166161"
+  },
+  {
+    "code": "CQ150",
+    "fullName": "LÝ NGỌC QUANG",
+    "sex": "nam",
+    "birthday": "1991-12-24",
+    "identity": "089552234579",
+    "phone": "0761223412"
+  },
+  {
+    "code": "CQ151",
+    "fullName": "TRƯƠNG QUỐC BÌNH",
+    "sex": "nữ",
+    "birthday": "2009-07-27",
+    "identity": "070500552894",
+    "phone": "0567935760"
+  },
+  {
+    "code": "CQ152",
+    "fullName": "LÊ ĐÌNH VỸ",
+    "sex": "nam",
+    "birthday": "1993-12-14",
+    "identity": "092718786441",
+    "phone": "0963740855"
+  },
+  {
+    "code": "CQ153",
+    "fullName": "PHAN MINH QUANG",
+    "sex": "nam",
+    "birthday": "1990-10-17",
+    "identity": "068553971587",
+    "phone": "0997982926"
+  },
+  {
+    "code": "CQ154",
+    "fullName": "ĐẶNG HỮU LAN",
+    "sex": "nữ",
+    "birthday": "2018-01-02",
+    "identity": "052132682408",
+    "phone": "0788888314"
+  },
+  {
+    "code": "CQ155",
+    "fullName": "DƯƠNG HỮU TRUNG",
+    "sex": "nữ",
+    "birthday": "1983-03-09",
+    "identity": "030244036743",
+    "phone": "0907543302"
+  },
+  {
+    "code": "CQ156",
+    "fullName": "TRỊNH ĐÌNH QUỐC",
+    "sex": "nam",
+    "birthday": "2023-12-27",
+    "identity": "049913518755",
+    "phone": "0919784390"
+  },
+  {
+    "code": "CQ157",
+    "fullName": "HƯNG HỮU VY",
+    "sex": "nữ",
+    "birthday": "1989-03-16",
+    "identity": "093465814347",
+    "phone": "0843680050"
+  },
+  {
+    "code": "CQ158",
+    "fullName": "HỒ NGỌC TUYẾT",
+    "sex": "Nữ",
+    "birthday": "1984-10-25",
+    "identity": "036889433856",
+    "phone": "0399706859"
+  },
+  {
+    "code": "CQ159",
+    "fullName": "Trần Ngọc Thảo",
+    "sex": "nữ",
+    "birthday": "1999-03-08",
+    "identity": "022102426612",
+    "phone": "0946677069"
+  },
+  {
+    "code": "CQ160",
+    "fullName": "NGỌC GIA VỸ",
+    "sex": "nữ",
+    "birthday": "2022-02-26",
+    "identity": "046176190071",
+    "phone": "0354968521"
+  },
+  {
+    "code": "CQ161",
+    "fullName": "NGUYỄN THỊ XUÂN",
+    "sex": "Nữ",
+    "birthday": "2023-02-20",
+    "identity": "064401545800",
+    "phone": "0904986818"
+  },
+  {
+    "code": "CQ162",
+    "fullName": "VƯƠNG THỊ VY",
+    "sex": "nữ",
+    "birthday": "2003-04-18",
+    "identity": "006178656792",
+    "phone": "0788769930"
+  },
+  {
+    "code": "CQ163",
+    "fullName": "TẠ ĐÌNH THẢO",
+    "sex": "Nữ",
+    "birthday": "2011-12-03",
+    "identity": "094387268117",
+    "phone": "0815478867"
+  },
+  {
+    "code": "CQ164",
+    "fullName": "VƯƠNG ĐÌNH THÚY",
+    "sex": "nữ",
+    "birthday": "2016-02-15",
+    "identity": "026520242409",
+    "phone": "0396394238"
+  },
+  {
+    "code": "CQ165",
+    "fullName": "TRẦN KHANH DUY",
+    "sex": "nữ",
+    "birthday": "1997-04-10",
+    "identity": "072296172079",
+    "phone": "0526326304"
+  },
+  {
+    "code": "CQ166",
+    "fullName": "NGUYỄN THỊ VŨ",
+    "sex": "nữ",
+    "birthday": "2013-08-25",
+    "identity": "067475387312",
+    "phone": "0833875625"
+  },
+  {
+    "code": "CQ167",
+    "fullName": "TRỊNH HỮU LƯU",
+    "sex": "nữ",
+    "birthday": "2013-07-12",
+    "identity": "048574911289",
+    "phone": "0857725347"
+  },
+  {
+    "code": "CQ168",
+    "fullName": "TRẦN KHÁNH MINH",
+    "sex": "nữ",
+    "birthday": "2016-12-25",
+    "identity": "001786130518",
+    "phone": "0856986293"
+  },
+  {
+    "code": "CQ169",
+    "fullName": "TRẦN THỊ THÚY",
+    "sex": "Nữ",
+    "birthday": "2004-08-10",
+    "identity": "093894975338",
+    "phone": "0567399213"
+  },
+  {
+    "code": "CQ170",
+    "fullName": "PHAN VĂN VY",
+    "sex": "Nữ",
+    "birthday": "2011-02-13",
+    "identity": "042464282072",
+    "phone": "0787789185"
+  },
+  {
+    "code": "CQ171",
+    "fullName": "HƯNG KHÁNH ĐỨC",
+    "sex": "Nam",
+    "birthday": "2018-07-22",
+    "identity": "096124424391",
+    "phone": "0857530765"
+  },
+  {
+    "code": "CQ172",
+    "fullName": "MAI VĂN MINH",
+    "sex": "nam",
+    "birthday": "2016-01-01",
+    "identity": "002377430114",
+    "phone": "0386674935"
+  },
+  {
+    "code": "CQ173",
+    "fullName": "PHAN KHÁNH KHÁNH",
+    "sex": "nam",
+    "birthday": "2002-04-11",
+    "identity": "008218262416",
+    "phone": "0787727760"
+  },
+  {
+    "code": "CQ174",
+    "fullName": "BÙI KHÁNH VINH",
+    "sex": "nam",
+    "birthday": "2010-02-18",
+    "identity": "079984258267",
+    "phone": "0393317067"
+  },
+  {
+    "code": "CQ175",
+    "fullName": "TRỊNH VĂN LINH",
+    "sex": "nam",
+    "birthday": "2020-04-15",
+    "identity": "087677168932",
+    "phone": "0376291600"
+  },
+  {
+    "code": "CQ176",
+    "fullName": "LÝ THANH LINH",
+    "sex": "nữ",
+    "birthday": "1984-07-28",
+    "identity": "080145611461",
+    "phone": "0812813088"
+  },
+  {
+    "code": "CQ177",
+    "fullName": "Trí khánh huy",
+    "sex": "Nam",
+    "birthday": "2021-12-28",
+    "identity": "038739903112",
+    "phone": "0384894382"
+  },
+  {
+    "code": "CQ178",
+    "fullName": "Lương Thị Tuyết",
+    "sex": "Nữ",
+    "birthday": "1990-06-26",
+    "identity": "025506335625",
+    "phone": "0349944959"
+  },
+  {
+    "code": "CQ179",
+    "fullName": "Lê Minh Hương",
+    "sex": "nữ",
+    "birthday": "2012-03-03",
+    "identity": "025539662670",
+    "phone": "0791851359"
+  },
+  {
+    "code": "CQ180",
+    "fullName": "Ngô Minh Nam",
+    "sex": "Nam",
+    "birthday": "1995-05-01",
+    "identity": "092516965595",
+    "phone": "0321661063"
+  },
+  {
+    "code": "CQ181",
+    "fullName": "LÝ ĐÌNH THẢO",
+    "sex": "nữ",
+    "birthday": "2020-10-29",
+    "identity": "034893983259",
+    "phone": "0823970941"
+  },
+  {
+    "code": "CQ182",
+    "fullName": "HỒ KHÁNH NAM",
+    "sex": "Nam",
+    "birthday": "2021-08-17",
+    "identity": "092865559996",
+    "phone": "0382757685"
+  },
+  {
+    "code": "CQ183",
+    "fullName": "NGUYỄN NGỌC YẾN",
+    "sex": "nữ",
+    "birthday": "2018-05-22",
+    "identity": "082432838085",
+    "phone": "0762185548"
+  },
+  {
+    "code": "CQ184",
+    "fullName": "ĐẶNG MINH VŨ",
+    "sex": "nam",
+    "birthday": "1995-10-20",
+    "identity": "067111057148",
+    "phone": "0836111765"
+  },
+  {
+    "code": "CQ185",
+    "fullName": "BẠCH GIA NGỌC",
+    "sex": "Nữ",
+    "birthday": "2016-07-08",
+    "identity": "030916926510",
+    "phone": "0992692342"
+  },
+  {
+    "code": "CQ186",
+    "fullName": "HỒ GIA HOA",
+    "sex": "nam",
+    "birthday": "1974-09-12",
+    "identity": "025694304953",
+    "phone": "0917746388"
+  },
+  {
+    "code": "CQ187",
+    "fullName": "TRẦN NGỌC SƠN",
+    "sex": "Nam",
+    "birthday": "2019-12-06",
+    "identity": "070374738087",
+    "phone": "0857080750"
+  },
+  {
+    "code": "CQ188",
+    "fullName": "NGÔ MINH VŨ",
+    "sex": "nữ",
+    "birthday": "1996-07-30",
+    "identity": "046441676374",
+    "phone": "0799002518"
+  },
+  {
+    "code": "CQ189",
+    "fullName": "HÀ NGỌC HOA",
+    "sex": "nam",
+    "birthday": "2023-05-08",
+    "identity": "091589080341",
+    "phone": "0917235516"
+  },
+  {
+    "code": "CQ190",
+    "fullName": "LÝ ĐÌNH TRUNG",
+    "sex": "nữ",
+    "birthday": "2004-05-04",
+    "identity": "075459171105",
+    "phone": "0393622523"
+  },
+  {
+    "code": "CQ191",
+    "fullName": "MAI NGỌC ĐỨC",
+    "sex": "Nam",
+    "birthday": "2022-12-07",
+    "identity": "075110705603",
+    "phone": "0792134487"
+  },
+  {
+    "code": "CQ192",
+    "fullName": "TRƯƠNG ĐÌNH SƠN",
+    "sex": "nam",
+    "birthday": "2008-12-23",
+    "identity": "014739066225",
+    "phone": "0904732677"
+  },
+  {
+    "code": "CQ193",
+    "fullName": "MAI VĂN LINH",
+    "sex": "Nam",
+    "birthday": "2002-05-08",
+    "identity": "045768706528",
+    "phone": "0987189139"
+  },
+  {
+    "code": "CQ194",
+    "fullName": "DƯƠNG GIA NHÂN",
+    "sex": "Nữ",
+    "birthday": "2017-10-31",
+    "identity": "040303681446",
+    "phone": "0851041404"
+  },
+  {
+    "code": "CQ195",
+    "fullName": "HÀ ĐÌNH LƯU",
+    "sex": "nam",
+    "birthday": "2010-04-23",
+    "identity": "034692557675",
+    "phone": "0975593228"
+  },
+  {
+    "code": "CQ196",
+    "fullName": "LÝ VĂN XUÂN",
+    "sex": "Nam",
+    "birthday": "2020-10-26",
+    "identity": "087776708936",
+    "phone": "0597358882"
+  },
+  {
+    "code": "CQ197",
+    "fullName": "ĐẶNG QUỐC KHANG",
+    "sex": "Nam",
+    "birthday": "2016-04-24",
+    "identity": "036551097586",
+    "phone": "0527509686"
+  },
+  {
+    "code": "CQ198",
+    "fullName": "MAI NGỌC QUỐC",
+    "sex": "nam",
+    "birthday": "2020-05-31",
+    "identity": "093778327657",
+    "phone": "0896727763"
+  },
+  {
+    "code": "CQ199",
+    "fullName": "BẠCH GIA VỸ",
+    "sex": "nữ",
+    "birthday": "2003-11-16",
+    "identity": "052459661181",
+    "phone": "0913908895"
+  },
+  {
+    "code": "CQ200",
+    "fullName": "TRƯƠNG THANH VĨ",
+    "sex": "nam",
+    "birthday": "2016-11-29",
+    "identity": "089167921192",
+    "phone": "0829587213"
+  },
+  {
+    "code": "CQ201",
+    "fullName": "TRẦN THANH YẾN",
+    "sex": "nữ",
+    "birthday": "2011-09-04",
+    "identity": "042830495627",
+    "phone": "0344550089"
+  },
+  {
+    "code": "CQ202",
+    "fullName": "VŨ QUỐC THÁI",
+    "sex": "nữ",
+    "birthday": "1998-11-09",
+    "identity": "006338238410",
+    "phone": "0523408947"
+  },
+  {
+    "code": "CQ203",
+    "fullName": "NGUYỄN KHÁNH TIẾN",
+    "sex": "nữ",
+    "birthday": "2006-01-11",
+    "identity": "093374602573",
+    "phone": "0787249592"
+  },
+  {
+    "code": "CQ204",
+    "fullName": "TRÍ KHÁNH THÀNH",
+    "sex": "Nam",
+    "birthday": "2020-07-06",
+    "identity": "066170759015",
+    "phone": "0971088847"
+  },
+  {
+    "code": "CQ205",
+    "fullName": "Mai Văn Mỹ",
+    "sex": "Nam",
+    "birthday": "2013-09-05",
+    "identity": "040360233682",
+    "phone": "0964526481"
+  },
+  {
+    "code": "CQ206",
+    "fullName": "Mai Đình Tâm",
+    "sex": "nam",
+    "birthday": "2017-12-19",
+    "identity": "024160971988",
+    "phone": "0909395445"
+  },
+  {
+    "code": "CQ207",
+    "fullName": "TẠ MINH ANH",
+    "sex": "nam",
+    "birthday": "1986-07-12",
+    "identity": "006388507323",
+    "phone": "0854250957"
+  },
+  {
+    "code": "CQ208",
+    "fullName": "Dương Quốc Cảm",
+    "sex": "nữ",
+    "birthday": "2008-11-04",
+    "identity": "034179159214",
+    "phone": "0584880277"
+  },
+  {
+    "code": "CQ209",
+    "fullName": "Phạm Thanh Hồng",
+    "sex": "nữ",
+    "birthday": "2012-06-07",
+    "identity": "024635332990",
+    "phone": "0872430911"
+  },
+  {
+    "code": "CQ210",
+    "fullName": "DƯƠNG THANH BÌNH",
+    "sex": "nữ",
+    "birthday": "2019-06-14",
+    "identity": "049917128613",
+    "phone": "0525292131"
+  },
+  {
+    "code": "CQ211",
+    "fullName": "HƯNG ĐÌNH LAN",
+    "sex": "Nữ",
+    "birthday": "1996-02-15",
+    "identity": "096454656999",
+    "phone": "0845153130"
+  },
+  {
+    "code": "CQ212",
+    "fullName": "TẠ GIA CHI",
+    "sex": "nữ",
+    "birthday": "2004-08-30",
+    "identity": "035969310880",
+    "phone": "0337102419"
+  },
+  {
+    "code": "CQ213",
+    "fullName": "Bạch Đình Hà",
+    "sex": "nữ",
+    "birthday": "2018-05-02",
+    "identity": "075741720664",
+    "phone": "0882621344"
+  },
+  {
+    "code": "CQ214",
+    "fullName": "LÊ NGỌC NAM",
+    "sex": "Nam",
+    "birthday": "2012-01-18",
+    "identity": "094879941004",
+    "phone": "0597983907"
+  },
+  {
+    "code": "CQ215",
+    "fullName": "VŨ QUỐC LINH",
+    "sex": "nam",
+    "birthday": "2004-07-24",
+    "identity": "072435132838",
+    "phone": "0339063936"
+  },
+  {
+    "code": "CQ216",
+    "fullName": "VƯƠNG VĂN VY",
+    "sex": "Nữ",
+    "birthday": "2019-07-31",
+    "identity": "079350604420",
+    "phone": "0778578325"
+  },
+  {
+    "code": "CQ217",
+    "fullName": "VƯƠNG MINH HƯƠNG",
+    "sex": "nữ",
+    "birthday": "2019-05-15",
+    "identity": "082937041098",
+    "phone": "0881807252"
+  },
+  {
+    "code": "CQ218",
+    "fullName": "ĐẶNG QUỐC MỸ",
+    "sex": "nam",
+    "birthday": "1990-03-08",
+    "identity": "095560263460",
+    "phone": "0795411465"
+  },
+  {
+    "code": "CQ219",
+    "fullName": "LÂM THANH TIẾN",
+    "sex": "nữ",
+    "birthday": "2012-10-27",
+    "identity": "042703741929",
+    "phone": "0771649802"
+  },
+  {
+    "code": "CQ220",
+    "fullName": "HƯNG THỊ MỸ",
+    "sex": "Nữ",
+    "birthday": "2019-06-20",
+    "identity": "091389866245",
+    "phone": "0797254702"
+  },
+  {
+    "code": "CQ221",
+    "fullName": "Hưng Quốc Hưng",
+    "sex": "Nữ",
+    "birthday": "2018-03-03",
+    "identity": "079608887241",
+    "phone": "0884767256"
+  },
+  {
+    "code": "CQ222",
+    "fullName": "Bạch Minh Linh",
+    "sex": "nữ",
+    "birthday": "2018-03-05",
+    "identity": "052378714688",
+    "phone": "0793466133"
+  },
+  {
+    "code": "CQ223",
+    "fullName": "Trinh Gia Tùng",
+    "sex": "nam",
+    "birthday": "2009-09-04",
+    "identity": "014802785036",
+    "phone": "0784712755"
+  },
+  {
+    "code": "CQ224",
+    "fullName": "BẠCH GIA HẢI",
+    "sex": "nam",
+    "birthday": "2014-07-09",
+    "identity": "036604589553",
+    "phone": "0897925647"
+  },
+  {
+    "code": "CQ225",
+    "fullName": "Đặng Khánh Duyên",
+    "sex": "nam",
+    "birthday": "2004-11-20",
+    "identity": "087691351996",
+    "phone": "0522923794"
+  },
+  {
+    "code": "CQ226",
+    "fullName": "NGÔ VĂN LAN",
+    "sex": "Nam",
+    "birthday": "2012-11-04",
+    "identity": "080915716906",
+    "phone": "0787887254"
+  },
+  {
+    "code": "CQ227",
+    "fullName": "LÂM THANH ĐỨC",
+    "sex": "nam",
+    "birthday": "2017-11-25",
+    "identity": "054467248605",
+    "phone": "0707866332"
+  },
+  {
+    "code": "CQ228",
+    "fullName": "BÙI KHÁNH ĐỨC",
+    "sex": "nam",
+    "birthday": "2007-09-20",
+    "identity": "066208288593",
+    "phone": "0988836189"
+  },
+  {
+    "code": "CQ229",
+    "fullName": "HỒ THỊ CẨM",
+    "sex": "Nữ",
+    "birthday": "1987-11-14",
+    "identity": "080824949282",
+    "phone": "0365721782"
+  },
+  {
+    "code": "CQ230",
+    "fullName": "NGỌC GIA KHOA",
+    "sex": "Nam",
+    "birthday": "2021-07-15",
+    "identity": "034603130461",
+    "phone": "0778119680"
+  },
+  {
+    "code": "CQ231",
+    "fullName": "VÕ KHÁNH CẪM",
+    "sex": "nam",
+    "birthday": "2003-04-22",
+    "identity": "083207383819",
+    "phone": "0706586970"
+  },
+  {
+    "code": "CQ232",
+    "fullName": "DƯƠNG ĐÌNH YẾN",
+    "sex": "Nữ",
+    "birthday": "2006-03-08",
+    "identity": "093624649949",
+    "phone": "0586957088"
+  },
+  {
+    "code": "CQ233",
+    "fullName": "ĐỖ MINH NHÂN",
+    "sex": "nam",
+    "birthday": "2022-10-26",
+    "identity": "011505472521",
+    "phone": "0873275605"
+  },
+  {
+    "code": "CQ234",
+    "fullName": "Phan Ngọc Quốc",
+    "sex": "nữ",
+    "birthday": "1990-04-13",
+    "identity": "095320458091",
+    "phone": "0346505168"
+  },
+  {
+    "code": "CQ235",
+    "fullName": "VÕ VĂN SƠN",
+    "sex": "nam",
+    "birthday": "2016-10-16",
+    "identity": "054731613052",
+    "phone": "0874663066"
+  },
+  {
+    "code": "CQ236",
+    "fullName": "VŨ KHÁNH TOÀN",
+    "sex": "nam",
+    "birthday": "2019-10-07",
+    "identity": "011734859738",
+    "phone": "0363352461"
+  },
+  {
+    "code": "CQ237",
+    "fullName": "LÂM MINH TÂM",
+    "sex": "nữ",
+    "birthday": "2016-01-27",
+    "identity": "020354193199",
+    "phone": "0847090860"
+  },
+  {
+    "code": "CQ238",
+    "fullName": "TRÍ MINH TÙNG",
+    "sex": "nam",
+    "birthday": "1999-03-11",
+    "identity": "026789953970",
+    "phone": "0918719985"
+  },
+  {
+    "code": "CQ239",
+    "fullName": "PHAN THỊ ĐỨC",
+    "sex": "Nữ",
+    "birthday": "2019-06-08",
+    "identity": "086681073340",
+    "phone": "0335764024"
+  },
+  {
+    "code": "CQ240",
+    "fullName": "VŨ MINH VY",
+    "sex": "nữ",
+    "birthday": "1996-02-25",
+    "identity": "002183503135",
+    "phone": "0786277253"
+  },
+  {
+    "code": "CQ241",
+    "fullName": "HƯNG VĂN MINH",
+    "sex": "Nam",
+    "birthday": "1995-06-29",
+    "identity": "014893001046",
+    "phone": "0701833917"
+  },
+  {
+    "code": "CQ242",
+    "fullName": "LÝ VĂN VY",
+    "sex": "Nam",
+    "birthday": "1996-08-27",
+    "identity": "060865081649",
+    "phone": "0343630899"
+  },
+  {
+    "code": "CQ243",
+    "fullName": "LƯƠNG ĐÌNH NHÂN",
+    "sex": "nam",
+    "birthday": "2023-01-09",
+    "identity": "052725940614",
+    "phone": "0387623517"
+  },
+  {
+    "code": "CQ244",
+    "fullName": "TRÍ KHÁNH HUY",
+    "sex": "nam",
+    "birthday": "2010-04-29",
+    "identity": "038862679398",
+    "phone": "0522128301"
+  },
+  {
+    "code": "CQ245",
+    "fullName": "VŨ GIA TUYẾT",
+    "sex": "Nữ",
+    "birthday": "2019-09-21",
+    "identity": "015709526300",
+    "phone": "0709385582"
+  },
+  {
+    "code": "CQ246",
+    "fullName": "NGUYỄN ĐÌNH TÙNG",
+    "sex": "nam",
+    "birthday": "2022-07-22",
+    "identity": "025961912403",
+    "phone": "0912250087"
+  },
+  {
+    "code": "CQ247",
+    "fullName": "TRÍ KHÁNH NAM",
+    "sex": "nam",
+    "birthday": "2015-02-11",
+    "identity": "015426625147",
+    "phone": "0389815591"
+  },
+  {
+    "code": "CQ248",
+    "fullName": "HOÀNG MINH KHANG",
+    "sex": "nam",
+    "birthday": "2020-03-21",
+    "identity": "095587856493",
+    "phone": "0827328924"
+  },
+  {
+    "code": "CQ249",
+    "fullName": "BÙI KHÁNH TRÍ",
+    "sex": "nữ",
+    "birthday": "2012-07-07",
+    "identity": "060760642185",
+    "phone": "0908166919"
+  },
+  {
+    "code": "CQ250",
+    "fullName": "HƯNG ĐÌNH HÀ",
+    "sex": "nữ",
+    "birthday": "2009-04-21",
+    "identity": "019508078964",
+    "phone": "0961264490"
+  },
+  {
+    "code": "CQ251",
+    "fullName": "TRƯƠNG ĐÌNH THÀNH",
+    "sex": "Nam",
+    "birthday": "2020-12-14",
+    "identity": "079730174649",
+    "phone": "0586990467"
+  },
+  {
+    "code": "CQ252",
+    "fullName": "VƯƠNG THANH QUANG",
+    "sex": "nam",
+    "birthday": "2012-05-02",
+    "identity": "060309192921",
+    "phone": "0388305478"
+  },
+  {
+    "code": "CQ253",
+    "fullName": "NGUYỄN MINH HÒA",
+    "sex": "Nữ",
+    "birthday": "2010-05-15",
+    "identity": "096135420960",
+    "phone": "0915033780"
+  },
+  {
+    "code": "CQ254",
+    "fullName": "HOÀNG QUỐC THÀNH",
+    "sex": "Nam",
+    "birthday": "2015-02-10",
+    "identity": "031176798309",
+    "phone": "0338801252"
+  },
+  {
+    "code": "CQ255",
+    "fullName": "TRÍ ĐÌNH TÚ",
+    "sex": "nam",
+    "birthday": "2012-08-27",
+    "identity": "058394032961",
+    "phone": "0846870926"
+  },
+  {
+    "code": "CQ256",
+    "fullName": "DƯƠNG MINH KHOA",
+    "sex": "Nam",
+    "birthday": "2013-08-17",
+    "identity": "004607549446",
+    "phone": "0971385109"
+  },
+  {
+    "code": "CQ257",
+    "fullName": "LÂM MINH NGỌC",
+    "sex": "Nữ",
+    "birthday": "1991-10-26",
+    "identity": "080722609335",
+    "phone": "0918917000"
+  },
+  {
+    "code": "CQ258",
+    "fullName": "NGỌC MINH THẢO",
+    "sex": "Nữ",
+    "birthday": "2000-04-26",
+    "identity": "074725403911",
+    "phone": "0876311880"
+  },
+  {
+    "code": "CQ259",
+    "fullName": "HÀ NGỌC MỸ",
+    "sex": "nam",
+    "birthday": "2004-07-06",
+    "identity": "046966911281",
+    "phone": "0322774129"
+  },
+  {
+    "code": "CQ260",
+    "fullName": "HOÀNG VĂN VỸ",
+    "sex": "Nam",
+    "birthday": "2002-05-20",
+    "identity": "052401705985",
+    "phone": "0529955063"
+  },
+  {
+    "code": "CQ261",
+    "fullName": "Vương Khánh Mỹ",
+    "sex": "nữ",
+    "birthday": "2004-12-13",
+    "identity": "015272888663",
+    "phone": "0871319671"
+  },
+  {
+    "code": "CQ262",
+    "fullName": "Trịnh Ngọc Bình",
+    "sex": "nữ",
+    "birthday": "2021-06-25",
+    "identity": "001158275494",
+    "phone": "0966764734"
+  },
+  {
+    "code": "CQ263",
+    "fullName": "NGỌC VĂN LÊ",
+    "sex": "Nam",
+    "birthday": "2012-03-26",
+    "identity": "093939627758",
+    "phone": "0324426987"
+  },
+  {
+    "code": "CQ264",
+    "fullName": "TRƯƠNG HỮU LÊ",
+    "sex": "nam",
+    "birthday": "2018-11-21",
+    "identity": "026228246927",
+    "phone": "0772857252"
+  },
+  {
+    "code": "CQ265",
+    "fullName": "VÕ HỮU HUY",
+    "sex": "Nam",
+    "birthday": "2014-10-28",
+    "identity": "075924551458",
+    "phone": "0794125056"
+  },
+  {
+    "code": "CQ266",
+    "fullName": "TRỊNH ĐÌNH HỒNG",
+    "sex": "nam",
+    "birthday": "2002-12-08",
+    "identity": "020558865570",
+    "phone": "0529075552"
+  },
+  {
+    "code": "CQ267",
+    "fullName": "VƯƠNG ĐÌNH NGỌC",
+    "sex": "nữ",
+    "birthday": "2010-05-30",
+    "identity": "034905329433",
+    "phone": "0343667390"
+  },
+  {
+    "code": "CQ268",
+    "fullName": "Phan Thanh Mỹ",
+    "sex": "nam",
+    "birthday": "1985-04-29",
+    "identity": "022620018490",
+    "phone": "0987965123"
+  },
+  {
+    "code": "CQ269",
+    "fullName": "LÝ GIA NHÂN",
+    "sex": "nữ",
+    "birthday": "2016-06-23",
+    "identity": "002762962414",
+    "phone": "0998219116"
+  },
+  {
+    "code": "CQ270",
+    "fullName": "TẠ ĐÌNH YẾN",
+    "sex": "Nữ",
+    "birthday": "1997-03-17",
+    "identity": "051934176898",
+    "phone": "0379237415"
+  },
+  {
+    "code": "CQ271",
+    "fullName": "ĐẶNG QUỐC DUYÊN",
+    "sex": "nữ",
+    "birthday": "2010-10-06",
+    "identity": "042441881091",
+    "phone": "0321175818"
+  },
+  {
+    "code": "CQ272",
+    "fullName": "VƯƠNG ĐÌNH HƯƠNG",
+    "sex": "nữ",
+    "birthday": "2002-07-16",
+    "identity": "089622668181",
+    "phone": "0907437406"
+  },
+  {
+    "code": "CQ273",
+    "fullName": "Lý Đình Thành",
+    "sex": "Nam",
+    "birthday": "2016-06-08",
+    "identity": "035851585566",
+    "phone": "0761511114"
+  },
+  {
+    "code": "CQ274",
+    "fullName": "Phạm Thanh Nhân",
+    "sex": "nữ",
+    "birthday": "2017-10-29",
+    "identity": "011575073687",
+    "phone": "0703076349"
+  },
+  {
+    "code": "CQ275",
+    "fullName": "VŨ GIA THẢO",
+    "sex": "nữ",
+    "birthday": "2010-09-29",
+    "identity": "033547067418",
+    "phone": "0779565070"
+  },
+  {
+    "code": "CQ276",
+    "fullName": "ĐẶNG HỮU TRANG",
+    "sex": "Nữ",
+    "birthday": "2004-01-21",
+    "identity": "074886193115",
+    "phone": "0701995861"
+  },
+  {
+    "code": "CQ277",
+    "fullName": "DƯƠNG KHÁNH VINH",
+    "sex": "nữ",
+    "birthday": "2020-01-29",
+    "identity": "089714192377",
+    "phone": "0339597306"
+  },
+  {
+    "code": "CQ278",
+    "fullName": "TẠ THỊ VŨ",
+    "sex": "nữ",
+    "birthday": "2015-01-08",
+    "identity": "089102851297",
+    "phone": "0708960215"
+  },
+  {
+    "code": "CQ279",
+    "fullName": "HƯNG QUỐC NHÂN",
+    "sex": "nữ",
+    "birthday": "2015-12-19",
+    "identity": "070517558757",
+    "phone": "0327791943"
+  },
+  {
+    "code": "CQ280",
+    "fullName": "HOÀNG THANH BÌNH",
+    "sex": "nữ",
+    "birthday": "2009-11-26",
+    "identity": "048488960748",
+    "phone": "0592075049"
+  },
+  {
+    "code": "CQ281",
+    "fullName": "HƯNG ĐÌNH TRANG",
+    "sex": "Nữ",
+    "birthday": "2014-05-08",
+    "identity": "027316749629",
+    "phone": "0704134951"
+  },
+  {
+    "code": "CQ282",
+    "fullName": "Dương Gia Lan",
+    "sex": "nữ",
+    "birthday": "2020-07-05",
+    "identity": "082158982137",
+    "phone": "0934951219"
+  },
+  {
+    "code": "CQ283",
+    "fullName": "Phan Thị Hồng",
+    "sex": "nữ",
+    "birthday": "2019-08-04",
+    "identity": "006325433139",
+    "phone": "0521284152"
+  },
+  {
+    "code": "CQ284",
+    "fullName": "Đặng Thị Đức",
+    "sex": "Nam",
+    "birthday": "1986-08-16",
+    "identity": "083615589109",
+    "phone": "0351513419"
+  },
+  {
+    "code": "CQ285",
+    "fullName": "Vũ Ngọc Lê",
+    "sex": "nữ",
+    "birthday": "1991-01-20",
+    "identity": "093907017106",
+    "phone": "0364611086"
+  },
+  {
+    "code": "CQ286",
+    "fullName": "MAI QUỐC TIẾN",
+    "sex": "nam",
+    "birthday": "2011-04-27",
+    "identity": "075557491089",
+    "phone": "0589518671"
+  },
+  {
+    "code": "CQ287",
+    "fullName": "ĐẶNG THỊ VY",
+    "sex": "Nữ",
+    "birthday": "2007-07-20",
+    "identity": "036389314030",
+    "phone": "0761926759"
+  },
+  {
+    "code": "CQ288",
+    "fullName": "BÙI VĂN TOÀN",
+    "sex": "Nam",
+    "birthday": "2004-11-28",
+    "identity": "006192255212",
+    "phone": "0592046542"
+  },
+  {
+    "code": "CQ289",
+    "fullName": "VƯƠNG THỊ VŨ",
+    "sex": "Nữ",
+    "birthday": "2012-08-22",
+    "identity": "066136844661",
+    "phone": "0344766018"
+  },
+  {
+    "code": "CQ290",
+    "fullName": "Ngọc Thanh Minh",
+    "sex": "nữ",
+    "birthday": "1991-12-30",
+    "identity": "064156678302",
+    "phone": "0788755504"
+  },
+  {
+    "code": "CQ291",
+    "fullName": "HƯNG KHÁNH ĐỨC",
+    "sex": "Nam",
+    "birthday": "2004-04-26",
+    "identity": "079865590386",
+    "phone": "0787571088"
+  },
+  {
+    "code": "CQ292",
+    "fullName": "NGUYỄN THANH XUÂN",
+    "sex": "nữ",
+    "birthday": "2017-01-15",
+    "identity": "001242853826",
+    "phone": "0788026995"
+  },
+  {
+    "code": "CQ293",
+    "fullName": "NGỌC ĐÌNH DŨNG",
+    "sex": "nam",
+    "birthday": "2009-07-14",
+    "identity": "025993795182",
+    "phone": "0392952839"
+  },
+  {
+    "code": "CQ294",
+    "fullName": "LÊ KHÁNH ĐỨC",
+    "sex": "Nam",
+    "birthday": "2018-02-15",
+    "identity": "033808251042",
+    "phone": "0569664927"
+  },
+  {
+    "code": "CQ295",
+    "fullName": "Hà Thị Lan",
+    "sex": "Nữ",
+    "birthday": "2016-12-09",
+    "identity": "094995416848",
+    "phone": "0892264239"
+  },
+  {
+    "code": "CQ296",
+    "fullName": "HỒ HỮU NAM",
+    "sex": "nam",
+    "birthday": "2012-06-08",
+    "identity": "067412924333",
+    "phone": "0939210173"
+  },
+  {
+    "code": "CQ297",
+    "fullName": "TẠ GIA CẨM",
+    "sex": "Nữ",
+    "birthday": "2008-11-21",
+    "identity": "080262267379",
+    "phone": "0776171239"
+  },
+  {
+    "code": "CQ298",
+    "fullName": "VÕ QUỐC KHÁNH",
+    "sex": "nữ",
+    "birthday": "2004-08-29",
+    "identity": "075506497600",
+    "phone": "0872546034"
+  },
+  {
+    "code": "CQ299",
+    "fullName": "VŨ GIA THÀNH",
+    "sex": "nam",
+    "birthday": "2019-12-21",
+    "identity": "092355914203",
+    "phone": "0993586223"
+  },
+  {
+    "code": "CQ300",
+    "fullName": "TẠ VĂN THÚY",
+    "sex": "Nam",
+    "birthday": "1999-11-26",
+    "identity": "014598174134",
+    "phone": "0915175113"
+  },
+  {
+    "code": "CQ301",
+    "fullName": "TRỊNH MINH THẢO",
+    "sex": "nữ",
+    "birthday": "2018-07-22",
+    "identity": "015437809587",
+    "phone": "0899109385"
+  },
+  {
+    "code": "CQ302",
+    "fullName": "HỒ VĂN TOÀN",
+    "sex": "Nam",
+    "birthday": "2015-08-06",
+    "identity": "012612554205",
+    "phone": "0989012180"
+  },
+  {
+    "code": "CQ303",
+    "fullName": "NGỌC THỊ VINH",
+    "sex": "Nữ",
+    "birthday": "2003-02-01",
+    "identity": "080696026470",
+    "phone": "0585898074"
+  },
+  {
+    "code": "CQ304",
+    "fullName": "TRƯƠNG HỮU CẨM",
+    "sex": "nam",
+    "birthday": "2002-12-26",
+    "identity": "086772817413",
+    "phone": "0348147531"
+  },
+  {
+    "code": "CQ305",
+    "fullName": "LÊ VĂN THÁI",
+    "sex": "Nam",
+    "birthday": "2022-03-26",
+    "identity": "079680856530",
+    "phone": "0357627528"
+  },
+  {
+    "code": "CQ306",
+    "fullName": "BÙI MINH TUYẾT",
+    "sex": "Nữ",
+    "birthday": "2002-01-30",
+    "identity": "045914857339",
+    "phone": "0372826429"
+  },
+  {
+    "code": "CQ307",
+    "fullName": "TRƯƠNG MINH VỸ",
+    "sex": "nam",
+    "birthday": "2001-12-20",
+    "identity": "051304608402",
+    "phone": "0933869843"
+  },
+  {
+    "code": "CQ308",
+    "fullName": "PHAN THANH THÀNH",
+    "sex": "Nam",
+    "birthday": "1983-10-11",
+    "identity": "012459275930",
+    "phone": "0998323055"
+  },
+  {
+    "code": "CQ309",
+    "fullName": "LƯƠNG GIA THÚY",
+    "sex": "nữ",
+    "birthday": "2015-05-27",
+    "identity": "058851756024",
+    "phone": "0705169928"
+  },
+  {
+    "code": "CQ310",
+    "fullName": "LƯƠNG KHÁNH VÂN",
+    "sex": "nam",
+    "birthday": "2006-07-01",
+    "identity": "020795409409",
+    "phone": "0366433324"
+  },
+  {
+    "code": "CQ311",
+    "fullName": "TRÍ THANH THÚY",
+    "sex": "Nữ",
+    "birthday": "2016-07-05",
+    "identity": "077102388641",
+    "phone": "0583454308"
+  },
+  {
+    "code": "CQ312",
+    "fullName": "HOÀNG THANH ĐỨC",
+    "sex": "nam",
+    "birthday": "2006-05-25",
+    "identity": "027635212926",
+    "phone": "0389877711"
+  },
+  {
+    "code": "CQ313",
+    "fullName": "NGỌC THỊ HUY",
+    "sex": "Nam",
+    "birthday": "2007-05-07",
+    "identity": "096132438679",
+    "phone": "0812576466"
+  },
+  {
+    "code": "CQ314",
+    "fullName": "HOÀNG GIA DŨNG",
+    "sex": "nam",
+    "birthday": "2002-01-23",
+    "identity": "054506961050",
+    "phone": "0564002622"
+  },
+  {
+    "code": "CQ315",
+    "fullName": "NGUYỄN ĐĂNG DUY",
+    "sex": "nam",
+    "birthday": "2004-10-01",
+    "identity": "079428222781",
+    "phone": "0833887460"
+  },
+  {
+    "code": "CQ316",
+    "fullName": "LÊ ĐÌNH VŨ",
+    "sex": "nam",
+    "birthday": "2006-09-28",
+    "identity": "068688896416",
+    "phone": "0902541143"
+  },
+  {
+    "code": "CQ317",
+    "fullName": "TRỊNH MINH NAM",
+    "sex": "nam",
+    "birthday": "2014-05-27",
+    "identity": "054321573224",
+    "phone": "0895775230"
+  },
+  {
+    "code": "CQ318",
+    "fullName": "ĐỖ MINH THÁI",
+    "sex": "nữ",
+    "birthday": "2018-12-08",
+    "identity": "045258097945",
+    "phone": "0986621738"
+  },
+  {
+    "code": "CQ319",
+    "fullName": "LÂM VĂN HÀ",
+    "sex": "Nam",
+    "birthday": "2010-06-13",
+    "identity": "089666583843",
+    "phone": "0781429936"
+  },
+  {
+    "code": "CQ320",
+    "fullName": "LÊ QUỐC THÀNH",
+    "sex": "nam",
+    "birthday": "2008-10-20",
+    "identity": "051279891376",
+    "phone": "0945943647"
+  },
+  {
+    "code": "CQ321",
+    "fullName": "LÝ HỮU THÁI",
+    "sex": "nữ",
+    "birthday": "2020-01-23",
+    "identity": "066699799328",
+    "phone": "0706253712"
+  },
+  {
+    "code": "CQ322",
+    "fullName": "VÕ THỊ LINH",
+    "sex": "nữ",
+    "birthday": "2021-07-02",
+    "identity": "025283404107",
+    "phone": "0941739815"
+  },
+  {
+    "code": "CQ323",
+    "fullName": "BẠCH GIA CHI",
+    "sex": "nữ",
+    "birthday": "2000-03-23",
+    "identity": "046107248910",
+    "phone": "0887518402"
+  },
+  {
+    "code": "CQ324",
+    "fullName": "NGỌC QUỐC SƠN",
+    "sex": "nam",
+    "birthday": "2012-11-07",
+    "identity": "001546859349",
+    "phone": "0787219692"
+  },
+  {
+    "code": "CQ325",
+    "fullName": "VŨ HỮU QUỐC",
+    "sex": "nam",
+    "birthday": "2005-09-03",
+    "identity": "011576355205",
+    "phone": "0322441956"
+  },
+  {
+    "code": "CQ326",
+    "fullName": "VÕ GIA MINH",
+    "sex": "nữ",
+    "birthday": "2023-11-06",
+    "identity": "008756322967",
+    "phone": "0881967971"
+  },
+  {
+    "code": "CQ327",
+    "fullName": "HOÀNG VĂN TIẾN",
+    "sex": "Nam",
+    "birthday": "2015-10-16",
+    "identity": "033352667887",
+    "phone": "0908874535"
+  },
+  {
+    "code": "CQ328",
+    "fullName": "VƯƠNG HỮU TOÀN",
+    "sex": "nam",
+    "birthday": "2003-01-09",
+    "identity": "051419676066",
+    "phone": "0935071504"
+  },
+  {
+    "code": "CQ329",
+    "fullName": "Trịnh Gia Anh",
+    "sex": "nam",
+    "birthday": "2009-11-25",
+    "identity": "079334106796",
+    "phone": "0383959448"
+  },
+  {
+    "code": "CQ330",
+    "fullName": "NGỌC THỊ KHÁNH",
+    "sex": "nữ",
+    "birthday": "2006-01-14",
+    "identity": "037472932837",
+    "phone": "0564733918"
+  },
+  {
+    "code": "CQ331",
+    "fullName": "HÀ HỮU QUANG",
+    "sex": "nam",
+    "birthday": "2005-05-22",
+    "identity": "048946577932",
+    "phone": "0383044198"
+  },
+  {
+    "code": "CQ332",
+    "fullName": "Hà Gia Vỹ",
+    "sex": "nữ",
+    "birthday": "2022-02-09",
+    "identity": "049437686839",
+    "phone": "0788055369"
+  },
+  {
+    "code": "CQ333",
+    "fullName": "HOÀNG VĂN ANH",
+    "sex": "Nam",
+    "birthday": "2010-01-07",
+    "identity": "079799642437",
+    "phone": "0831635679"
+  },
+  {
+    "code": "CQ334",
+    "fullName": "Ngọc Hữu Toàn",
+    "sex": "nam",
+    "birthday": "2022-03-27",
+    "identity": "087815335922",
+    "phone": "0763969476"
+  },
+  {
+    "code": "CQ335",
+    "fullName": "HOÀNG QUỐC THÚY",
+    "sex": "Nữ",
+    "birthday": "1990-07-06",
+    "identity": "022981706608",
+    "phone": "0386031194"
+  },
+  {
+    "code": "CQ336",
+    "fullName": "LƯƠNG GIA LINH",
+    "sex": "nam",
+    "birthday": "2019-10-04",
+    "identity": "056469937532",
+    "phone": "0768319738"
+  },
+  {
+    "code": "CQ337",
+    "fullName": "TRẦN MINH THÚY",
+    "sex": "nữ",
+    "birthday": "2008-12-22",
+    "identity": "058875761891",
+    "phone": "0568837291"
+  },
+  {
+    "code": "CQ338",
+    "fullName": "LƯƠNG VĂN LƯU",
+    "sex": "Nam",
+    "birthday": "2006-08-28",
+    "identity": "075501975634",
+    "phone": "0769780113"
+  },
+  {
+    "code": "CQ339",
+    "fullName": "NGUYỄN THỊ TÂM",
+    "sex": "nữ",
+    "birthday": "2022-02-03",
+    "identity": "074111856926",
+    "phone": "0983939674"
+  },
+  {
+    "code": "CQ340",
+    "fullName": "LÊ VĂN LƯU",
+    "sex": "nam",
+    "birthday": "2010-02-02",
+    "identity": "010726013233",
+    "phone": "0569546356"
+  },
+  {
+    "code": "CQ341",
+    "fullName": "HỒ QUỐC SƠN",
+    "sex": "Nam",
+    "birthday": "2015-04-11",
+    "identity": "093395295457",
+    "phone": "0351615168"
+  },
+  {
+    "code": "CQ342",
+    "fullName": "Lương Minh Tú",
+    "sex": "nam",
+    "birthday": "2005-08-17",
+    "identity": "014645823384",
+    "phone": "0789212706"
+  },
+  {
+    "code": "CQ343",
+    "fullName": "BẠCH THANH HÒA",
+    "sex": "nữ",
+    "birthday": "2015-02-05",
+    "identity": "035820238739",
+    "phone": "0564704161"
+  },
+  {
+    "code": "CQ344",
+    "fullName": "VŨ QUỐC VỸ",
+    "sex": "nam",
+    "birthday": "2014-05-08",
+    "identity": "001550935653",
+    "phone": "0834031781"
+  },
+  {
+    "code": "CQ345",
+    "fullName": "LÝ MINH VÂN",
+    "sex": "nữ",
+    "birthday": "2012-11-20",
+    "identity": "054783382308",
+    "phone": "0901400801"
+  },
+  {
+    "code": "CQ346",
+    "fullName": "LÝ Đình THÚY",
+    "sex": "nữ",
+    "birthday": "2012-03-14",
+    "identity": "025959445280",
+    "phone": "0873065117"
+  },
+  {
+    "code": "CQ347",
+    "fullName": "TRÍ ĐÌNH MỸ",
+    "sex": "nam",
+    "birthday": "1997-07-29",
+    "identity": "094541816608",
+    "phone": "0946588075"
+  },
+  {
+    "code": "CQ348",
+    "fullName": "BÙI NGỌC TIẾN",
+    "sex": "nữ",
+    "birthday": "2000-05-08",
+    "identity": "026833841232",
+    "phone": "0992452731"
+  },
+  {
+    "code": "CQ349",
+    "fullName": "BẠCH VĂN TÙNG",
+    "sex": "Nam",
+    "birthday": "2022-02-15",
+    "identity": "012900916496",
+    "phone": "0973894375"
+  },
+  {
+    "code": "CQ350",
+    "fullName": "TRẦN NGỌC QUỐC",
+    "sex": "nữ",
+    "birthday": "1994-08-19",
+    "identity": "044452853120",
+    "phone": "0978699846"
+  },
+  {
+    "code": "CQ351",
+    "fullName": "MAI MINH MỸ",
+    "sex": "nam",
+    "birthday": "1997-06-24",
+    "identity": "002560776614",
+    "phone": "0363210250"
+  },
+  {
+    "code": "CQ352",
+    "fullName": "ĐẶNG MINH DUYÊN",
+    "sex": "nữ",
+    "birthday": "2001-02-20",
+    "identity": "048333426995",
+    "phone": "0857509520"
+  },
+  {
+    "code": "CQ353",
+    "fullName": "HÀ HỮU VÂN",
+    "sex": "nam",
+    "birthday": "2011-07-13",
+    "identity": "058252846038",
+    "phone": "0811056698"
+  },
+  {
+    "code": "CQ354",
+    "fullName": "Hưng Minh Thúy",
+    "sex": "nữ",
+    "birthday": "2011-10-22",
+    "identity": "030667097834",
+    "phone": "0893806280"
+  },
+  {
+    "code": "CQ355",
+    "fullName": "Phạm Minh Hồng",
+    "sex": "nam",
+    "birthday": "2015-02-05",
+    "identity": "037885699616",
+    "phone": "0978585873"
+  },
+  {
+    "code": "CQ356",
+    "fullName": "VŨ QUỐC ĐỨC",
+    "sex": "Nam",
+    "birthday": "2006-06-10",
+    "identity": "038594376948",
+    "phone": "0811263281"
+  },
+  {
+    "code": "CQ357",
+    "fullName": "TRỊNH NGỌC VÂN",
+    "sex": "nam",
+    "birthday": "2019-10-16",
+    "identity": "036505909848",
+    "phone": "0342126888"
+  },
+  {
+    "code": "CQ358",
+    "fullName": "HỒ HỮU ĐỨC",
+    "sex": "nam",
+    "birthday": "2014-07-07",
+    "identity": "092456345252",
+    "phone": "0377030518"
+  },
+  {
+    "code": "CQ359",
+    "fullName": "VƯƠNG THANH VŨ",
+    "sex": "nữ",
+    "birthday": "2017-07-28",
+    "identity": "084975237935",
+    "phone": "0793482798"
+  },
+  {
+    "code": "CQ360",
+    "fullName": "ĐỖ THỊ YẾN",
+    "sex": "nữ",
+    "birthday": "2007-04-30",
+    "identity": "070921110269",
+    "phone": "0904387174"
+  },
+  {
+    "code": "CQ361",
+    "fullName": "HƯNG THỊ NAM",
+    "sex": "Nữ",
+    "birthday": "2015-05-27",
+    "identity": "079807567730",
+    "phone": "0373988974"
+  },
+  {
+    "code": "CQ362",
+    "fullName": "HỒ NGỌC LƯU",
+    "sex": "nam",
+    "birthday": "2020-08-15",
+    "identity": "037671000041",
+    "phone": "0789296911"
+  },
+  {
+    "code": "CQ363",
+    "fullName": "NGÔ KHÁNH DŨNG",
+    "sex": "Nam",
+    "birthday": "2005-02-09",
+    "identity": "092974338616",
+    "phone": "0396499025"
+  },
+  {
+    "code": "CQ364",
+    "fullName": "Trí Đình Hòa",
+    "sex": "nữ",
+    "birthday": "2011-03-07",
+    "identity": "025733191390",
+    "phone": "0366992581"
+  },
+  {
+    "code": "CQ365",
+    "fullName": "LÝ ĐÌNH KHÁNH",
+    "sex": "nam",
+    "birthday": "2021-01-05",
+    "identity": "067161341271",
+    "phone": "0823706241"
+  },
+  {
+    "code": "CQ366",
+    "fullName": "LÊ NGỌC BÌNH",
+    "sex": "nữ",
+    "birthday": "2016-10-06",
+    "identity": "060239558761",
+    "phone": "0896812279"
+  },
+  {
+    "code": "CQ367",
+    "fullName": "Đặng Gia Chi",
+    "sex": "Nữ",
+    "birthday": "1978-11-30",
+    "identity": "024973678701",
+    "phone": "0706199817"
+  },
+  {
+    "code": "CQ368",
+    "fullName": "TRÍ THỊ NHÂN",
+    "sex": "Nữ",
+    "birthday": "2010-05-05",
+    "identity": "019979724060",
+    "phone": "0772217637"
+  },
+  {
+    "code": "CQ369",
+    "fullName": "MAI ĐÌNH SƠN",
+    "sex": "Nam",
+    "birthday": "2000-09-17",
+    "identity": "094417208818",
+    "phone": "0991658088"
+  },
+  {
+    "code": "CQ370",
+    "fullName": "LƯƠNG ĐÌNH KHÁNH",
+    "sex": "nữ",
+    "birthday": "2017-01-11",
+    "identity": "006744031843",
+    "phone": "0973648447"
+  },
+  {
+    "code": "CQ371",
+    "fullName": "MAI VĂN THÚY",
+    "sex": "Nữ",
+    "birthday": "2010-07-07",
+    "identity": "045544425997",
+    "phone": "0339364026"
+  },
+  {
+    "code": "CQ372",
+    "fullName": "NGUYỄN KHÁNH TRANG",
+    "sex": "Nữ",
+    "birthday": "2021-02-06",
+    "identity": "092795642367",
+    "phone": "0709348931"
+  },
+  {
+    "code": "CQ373",
+    "fullName": "MAI MINH HỒNG",
+    "sex": "nam",
+    "birthday": "2011-11-07",
+    "identity": "006679592803",
+    "phone": "0837524593"
+  },
+  {
+    "code": "CQ374",
+    "fullName": "NGUYỄN ĐÌNH DŨNG",
+    "sex": "Nam",
+    "birthday": "2019-03-27",
+    "identity": "093897608791",
+    "phone": "0883753165"
+  },
+  {
+    "code": "CQ375",
+    "fullName": "HÀ THỊ TRUNG",
+    "sex": "nữ",
+    "birthday": "2008-11-29",
+    "identity": "030919620715",
+    "phone": "0821230011"
+  },
+  {
+    "code": "CQ376",
+    "fullName": "LÂM THANH TOÀN",
+    "sex": "nam",
+    "birthday": "1999-05-01",
+    "identity": "077327285110",
+    "phone": "0326161522"
+  },
+  {
+    "code": "CQ377",
+    "fullName": "Lý Ngọc Thảo",
+    "sex": "Nữ",
+    "birthday": "2015-04-09",
+    "identity": "077131452141",
+    "phone": "0823615411"
+  },
+  {
+    "code": "CQ378",
+    "fullName": "VŨ QUỐC THÁI",
+    "sex": "nam",
+    "birthday": "2015-07-21",
+    "identity": "042544788968",
+    "phone": "0706923592"
+  },
+  {
+    "code": "CQ379",
+    "fullName": "MAI THỊ QUỐC",
+    "sex": "nữ",
+    "birthday": "2010-09-23",
+    "identity": "087790502868",
+    "phone": "0909714553"
+  },
+  {
+    "code": "CQ380",
+    "fullName": "LÊ MINH TRÍ",
+    "sex": "nữ",
+    "birthday": "2004-07-18",
+    "identity": "012646217337",
+    "phone": "0897885539"
+  },
+  {
+    "code": "CQ381",
+    "fullName": "PHAN THỊ NGỌC",
+    "sex": "Nữ",
+    "birthday": "2020-01-21",
+    "identity": "025334084311",
+    "phone": "0847681600"
+  },
+  {
+    "code": "CQ382",
+    "fullName": "LƯƠNG QUỐC DUY",
+    "sex": "nam",
+    "birthday": "2010-12-01",
+    "identity": "077296839116",
+    "phone": "0882397633"
+  },
+  {
+    "code": "CQ383",
+    "fullName": "Lâm Thanh Khang",
+    "sex": "nam",
+    "birthday": "2020-03-08",
+    "identity": "035652382236",
+    "phone": "0932459726"
+  },
+  {
+    "code": "CQ384",
+    "fullName": "NGÔ VĂN TUYẾT",
+    "sex": "Nam",
+    "birthday": "2016-01-05",
+    "identity": "089939668661",
+    "phone": "0833105458"
+  },
+  {
+    "code": "CQ385",
+    "fullName": "HƯNG VĂN NGỌC",
+    "sex": "Nữ",
+    "birthday": "2012-12-16",
+    "identity": "095700715269",
+    "phone": "0385003954"
+  },
+  {
+    "code": "CQ386",
+    "fullName": "TRƯƠNG NGỌC HƯƠNG",
+    "sex": "Nữ",
+    "birthday": "2001-11-25",
+    "identity": "086390550609",
+    "phone": "0589306162"
+  },
+  {
+    "code": "CQ387",
+    "fullName": "HOÀNG MINH NGỌC",
+    "sex": "nữ",
+    "birthday": "2015-10-15",
+    "identity": "001127785848",
+    "phone": "0784524503"
+  },
+  {
+    "code": "CQ388",
+    "fullName": "PHAN NGỌC MỸ",
+    "sex": "nữ",
+    "birthday": "2018-04-01",
+    "identity": "054146796951",
+    "phone": "0912933571"
+  },
+  {
+    "code": "CQ389",
+    "fullName": "HỒ KHÁNH HOA",
+    "sex": "nam",
+    "birthday": "2010-12-10",
+    "identity": "011187102272",
+    "phone": "0585350196"
+  },
+  {
+    "code": "CQ390",
+    "fullName": "HÀ MINH MINH",
+    "sex": "nam",
+    "birthday": "2012-05-10",
+    "identity": "049420546153",
+    "phone": "0914726024"
+  },
+  {
+    "code": "CQ391",
+    "fullName": "HỒ MINH TOÀN",
+    "sex": "Nam",
+    "birthday": "2000-02-28",
+    "identity": "093860102481",
+    "phone": "0767988267"
+  },
+  {
+    "code": "CQ392",
+    "fullName": "PHAN ĐÌNH BÌNH",
+    "sex": "nữ",
+    "birthday": "2018-01-30",
+    "identity": "037646952565",
+    "phone": "0982942051"
+  },
+  {
+    "code": "CQ393",
+    "fullName": "TRẦN HỮU VÂN",
+    "sex": "nữ",
+    "birthday": "1997-02-02",
+    "identity": "001700522357",
+    "phone": "0791893016"
+  },
+  {
+    "code": "CQ394",
+    "fullName": "NGỌC MINH QUỐC",
+    "sex": "nữ",
+    "birthday": "2008-06-11",
+    "identity": "002679019316",
+    "phone": "0889279963"
+  },
+  {
+    "code": "CQ395",
+    "fullName": "LÝ GIA TRÍ",
+    "sex": "nam",
+    "birthday": "1979-06-07",
+    "identity": "096311122446",
+    "phone": "0837087578"
+  },
+  {
+    "code": "CQ396",
+    "fullName": "TRỊNH HỮU VÂN",
+    "sex": "nữ",
+    "birthday": "2022-04-06",
+    "identity": "027879720644",
+    "phone": "0522211309"
+  },
+  {
+    "code": "CQ397",
+    "fullName": "DƯƠNG HỮU VỸ",
+    "sex": "nữ",
+    "birthday": "2009-04-06",
+    "identity": "042766631717",
+    "phone": "0581601745"
+  },
+  {
+    "code": "CQ398",
+    "fullName": "MAI ĐÌNH VÂN",
+    "sex": "nữ",
+    "birthday": "1988-12-10",
+    "identity": "080755013985",
+    "phone": "0934405191"
+  },
+  {
+    "code": "CQ399",
+    "fullName": "BẠCH KHÁNH NHÂN",
+    "sex": "nam",
+    "birthday": "2010-09-17",
+    "identity": "082580549334",
+    "phone": "0322308141"
+  },
+  {
+    "code": "CQ400",
+    "fullName": "BÙI VĂN VINH",
+    "sex": "nam",
+    "birthday": "2012-12-05",
+    "identity": "077180535928",
+    "phone": "0352708516"
+  },
+  {
+    "code": "CQ401",
+    "fullName": "HÀ NGỌC SƠN",
+    "sex": "nam",
+    "birthday": "2008-07-27",
+    "identity": "006938489024",
+    "phone": "0335169013"
+  },
+  {
+    "code": "CQ402",
+    "fullName": "ĐỖ NGỌC SƠN",
+    "sex": "Nam",
+    "birthday": "1981-04-19",
+    "identity": "054477652988",
+    "phone": "0979042695"
+  },
+  {
+    "code": "CQ403",
+    "fullName": "VŨ HỮU LƯU",
+    "sex": "nữ",
+    "birthday": "2023-10-09",
+    "identity": "036411937951",
+    "phone": "0385318409"
+  },
+  {
+    "code": "CQ404",
+    "fullName": "MAI VĂN VŨ",
+    "sex": "Nam",
+    "birthday": "1985-09-14",
+    "identity": "026465112147",
+    "phone": "0905123669"
+  },
+  {
+    "code": "CQ405",
+    "fullName": "VŨ HỮU KHANG",
+    "sex": "Nam",
+    "birthday": "2019-12-12",
+    "identity": "017504951238",
+    "phone": "0913956189"
+  },
+  {
+    "code": "CQ406",
+    "fullName": "PHAN THANH TUYẾT",
+    "sex": "nữ",
+    "birthday": "2023-05-17",
+    "identity": "066911286662",
+    "phone": "0856499240"
+  },
+  {
+    "code": "CQ407",
+    "fullName": "HOÀNG NGỌC HÒA",
+    "sex": "nam",
+    "birthday": "2011-11-10",
+    "identity": "004369970684",
+    "phone": "0992285632"
+  },
+  {
+    "code": "CQ408",
+    "fullName": "LÊ THỊ TUYẾT",
+    "sex": "Nữ",
+    "birthday": "2012-12-26",
+    "identity": "077184800353",
+    "phone": "0767264393"
+  },
+  {
+    "code": "CQ409",
+    "fullName": "Vương Hữu Khang",
+    "sex": "Nam",
+    "birthday": "2013-10-24",
+    "identity": "079594152185",
+    "phone": "0396352580"
+  },
+  {
+    "code": "CQ410",
+    "fullName": "LÊ MINH DUY",
+    "sex": "Nữ",
+    "birthday": "2020-12-02",
+    "identity": "080774809712",
+    "phone": "0982718429"
+  },
+  {
+    "code": "CQ411",
+    "fullName": "VÕ QUỐC HUY",
+    "sex": "nam",
+    "birthday": "1990-12-18",
+    "identity": "064468890207",
+    "phone": "0349334600"
+  },
+  {
+    "code": "CQ412",
+    "fullName": "PHAN GIA DŨNG",
+    "sex": "Nam",
+    "birthday": "2020-09-08",
+    "identity": "045111619654",
+    "phone": "0368886048"
+  },
+  {
+    "code": "CQ413",
+    "fullName": "TẠ ĐÌNH KHOA",
+    "sex": "Nam",
+    "birthday": "2004-01-14",
+    "identity": "004823378792",
+    "phone": "0852173114"
+  },
+  {
+    "code": "CQ414",
+    "fullName": "TRỊNH NGỌC TRANG",
+    "sex": "Nữ",
+    "birthday": "1998-01-09",
+    "identity": "038460448105",
+    "phone": "0994873673"
+  },
+  {
+    "code": "CQ415",
+    "fullName": "TRÍ QUỐC QUỐC",
+    "sex": "nữ",
+    "birthday": "2015-06-21",
+    "identity": "042830755033",
+    "phone": "0882966928"
+  },
+  {
+    "code": "CQ416",
+    "fullName": "BẠCH NGỌC LÊ",
+    "sex": "nam",
+    "birthday": "2003-04-11",
+    "identity": "022561139633",
+    "phone": "0932728330"
+  },
+  {
+    "code": "CQ417",
+    "fullName": "TRƯƠNG KHÁNH HƯƠNG",
+    "sex": "nữ",
+    "birthday": "2001-05-28",
+    "identity": "051431946810",
+    "phone": "0851751071"
+  },
+  {
+    "code": "CQ418",
+    "fullName": "HÀ GIA THẢO",
+    "sex": "Nữ",
+    "birthday": "2008-11-08",
+    "identity": "001174630376",
+    "phone": "0936582168"
+  },
+  {
+    "code": "CQ419",
+    "fullName": "LÂM VĂN HOA",
+    "sex": "Nam",
+    "birthday": "2015-10-31",
+    "identity": "031149302520",
+    "phone": "0814920849"
+  },
+  {
+    "code": "CQ420",
+    "fullName": "LÊ ĐÌNH TRÍ",
+    "sex": "Nữ",
+    "birthday": "2005-07-20",
+    "identity": "060947949297",
+    "phone": "0787505758"
+  },
+  {
+    "code": "CQ421",
+    "fullName": "ĐỖ THỊ HÒA",
+    "sex": "Nữ",
+    "birthday": "2018-10-22",
+    "identity": "001425540491",
+    "phone": "0529098175"
+  },
+  {
+    "code": "CQ422",
+    "fullName": "HƯNG QUỐC TOÀN",
+    "sex": "Nam",
+    "birthday": "2008-02-02",
+    "identity": "084954796056",
+    "phone": "0949293740"
+  },
+  {
+    "code": "CQ423",
+    "fullName": "VŨ HỮU SƠN",
+    "sex": "Nam",
+    "birthday": "1989-03-07",
+    "identity": "051938499132",
+    "phone": "0882456298"
+  },
+  {
+    "code": "CQ424",
+    "fullName": "LÂM QUỐC HÒA",
+    "sex": "nam",
+    "birthday": "1999-10-24",
+    "identity": "014505284193",
+    "phone": "0944316272"
+  },
+  {
+    "code": "CQ425",
+    "fullName": "HƯNG MINH TUYẾT",
+    "sex": "nữ",
+    "birthday": "2011-08-01",
+    "identity": "027396017569",
+    "phone": "0897350192"
+  },
+  {
+    "code": "CQ426",
+    "fullName": "BẠCH ĐÌNH CẨM",
+    "sex": "nữ",
+    "birthday": "2016-07-17",
+    "identity": "040108870791",
+    "phone": "0373211844"
+  },
+  {
+    "code": "CQ427",
+    "fullName": "TRÍ MINH LAN",
+    "sex": "nữ",
+    "birthday": "2020-10-19",
+    "identity": "027551119254",
+    "phone": "0527324789"
+  },
+  {
+    "code": "CQ428",
+    "fullName": "NGỌC MINH TUYẾT",
+    "sex": "nữ",
+    "birthday": "2011-04-11",
+    "identity": "002324754886",
+    "phone": "0948320795"
+  },
+  {
+    "code": "CQ429",
+    "fullName": "ĐẶNG HỮU YẾN",
+    "sex": "nữ",
+    "birthday": "2019-05-07",
+    "identity": "012386643167",
+    "phone": "0933624066"
+  },
+  {
+    "code": "CQ430",
+    "fullName": "LÂM ĐÌNH HÒA",
+    "sex": "nữ",
+    "birthday": "2019-10-14",
+    "identity": "083554002710",
+    "phone": "0825907582"
+  },
+  {
+    "code": "CQ431",
+    "fullName": "LÊ NGỌC HƯƠNG",
+    "sex": "Nữ",
+    "birthday": "2001-06-28",
+    "identity": "017782464438",
+    "phone": "0918025119"
+  },
+  {
+    "code": "CQ432",
+    "fullName": "DƯƠNG THANH LAN",
+    "sex": "Nữ",
+    "birthday": "2006-10-09",
+    "identity": "062392058611",
+    "phone": "0987968185"
+  },
+  {
+    "code": "CQ433",
+    "fullName": "PHẠM QUỐC THẢO",
+    "sex": "nữ",
+    "birthday": "2022-02-10",
+    "identity": "058159753655",
+    "phone": "0354606989"
+  },
+  {
+    "code": "CQ434",
+    "fullName": "LƯƠNG HỮU HUY",
+    "sex": "nam",
+    "birthday": "2011-09-24",
+    "identity": "048436637255",
+    "phone": "0765815132"
+  },
+  {
+    "code": "CQ435",
+    "fullName": "LÂM NGỌC TÙNG",
+    "sex": "Nam",
+    "birthday": "1988-04-17",
+    "identity": "004222428054",
+    "phone": "0706787179"
+  },
+  {
+    "code": "CQ436",
+    "fullName": "TRƯƠNG THANH TIẾN",
+    "sex": "nữ",
+    "birthday": "2020-06-25",
+    "identity": "010354712268",
+    "phone": "0702511515"
+  },
+  {
+    "code": "CQ437",
+    "fullName": "TẠ NGỌC KHOA",
+    "sex": "Nam",
+    "birthday": "2022-04-30",
+    "identity": "015659179650",
+    "phone": "0988414412"
+  },
+  {
+    "code": "CQ438",
+    "fullName": "NGỌC NGỌC THÀNH",
+    "sex": "Nam",
+    "birthday": "2004-09-22",
+    "identity": "087354985330",
+    "phone": "0889157704"
+  },
+  {
+    "code": "CQ439",
+    "fullName": "HƯNG KHÁNH ANH",
+    "sex": "nữ",
+    "birthday": "2020-02-18",
+    "identity": "012703396012",
+    "phone": "0835204798"
+  },
+  {
+    "code": "CQ440",
+    "fullName": "VÕ ĐÌNH DŨNG",
+    "sex": "Nam",
+    "birthday": "2010-05-02",
+    "identity": "042513899146",
+    "phone": "0846518018"
+  },
+  {
+    "code": "CQ441",
+    "fullName": "HƯNG THỊ TIẾN",
+    "sex": "Nữ",
+    "birthday": "1997-06-02",
+    "identity": "031948699036",
+    "phone": "0382023245"
+  },
+  {
+    "code": "CQ442",
+    "fullName": "BẠCH ĐÌNH DUY",
+    "sex": "nữ",
+    "birthday": "2023-05-24",
+    "identity": "064766492949",
+    "phone": "0775060506"
+  },
+  {
+    "code": "CQ443",
+    "fullName": "PHAN ĐÌNH HUY",
+    "sex": "Nam",
+    "birthday": "1989-12-25",
+    "identity": "026453244466",
+    "phone": "0839844609"
+  },
+  {
+    "code": "CQ444",
+    "fullName": "HOÀNG NGỌC HÒA",
+    "sex": "nam",
+    "birthday": "1995-04-25",
+    "identity": "060497048561",
+    "phone": "0988945010"
+  },
+  {
+    "code": "CQ445",
+    "fullName": "HOÀNG THANH HÀ",
+    "sex": "nam",
+    "birthday": "2021-08-06",
+    "identity": "036713441675",
+    "phone": "0783943391"
+  },
+  {
+    "code": "CQ446",
+    "fullName": "LÝ HỮU NHÂN",
+    "sex": "nữ",
+    "birthday": "2007-03-25",
+    "identity": "062294183834",
+    "phone": "0702476102"
+  },
+  {
+    "code": "CQ447",
+    "fullName": "ĐỖ KHÁNH ĐỨC",
+    "sex": "nam",
+    "birthday": "2022-05-15",
+    "identity": "074540097899",
+    "phone": "0331538176"
+  },
+  {
+    "code": "CQ448",
+    "fullName": "TRẦN KHÁNH TÚ",
+    "sex": "nữ",
+    "birthday": "1987-11-07",
+    "identity": "086707720553",
+    "phone": "0948461550"
+  },
+  {
+    "code": "CQ449",
+    "fullName": "BÙI HỮU MỸ",
+    "sex": "nữ",
+    "birthday": "2012-11-02",
+    "identity": "091112717597",
+    "phone": "0849410686"
+  },
+  {
+    "code": "CQ450",
+    "fullName": "Lương Minh Vy",
+    "sex": "Nữ",
+    "birthday": "2023-12-23",
+    "identity": "045237519010",
+    "phone": "0707356117"
+  },
+  {
+    "code": "CQ451",
+    "fullName": "Đỗ Quốc Hải",
+    "sex": "nam",
+    "birthday": "2002-12-28",
+    "identity": "095442153893",
+    "phone": "0906326309"
+  },
+  {
+    "code": "CQ452",
+    "fullName": "MAI GIA BÌNH",
+    "sex": "nữ",
+    "birthday": "2005-09-30",
+    "identity": "042195429810",
+    "phone": "0708951745"
+  },
+  {
+    "code": "CQ453",
+    "fullName": "HƯNG GIA HÀ",
+    "sex": "nữ",
+    "birthday": "2000-10-11",
+    "identity": "095122834528",
+    "phone": "0366019060"
+  },
+  {
+    "code": "CQ454",
+    "fullName": "LÝ KHÁNH KHANG",
+    "sex": "Nam",
+    "birthday": "2008-01-12",
+    "identity": "052819062953",
+    "phone": "0824807353"
+  },
+  {
+    "code": "CQ455",
+    "fullName": "TRƯƠNG KHÁNH XUÂN",
+    "sex": "nam",
+    "birthday": "2002-07-26",
+    "identity": "037647497206",
+    "phone": "0365392000"
+  },
+  {
+    "code": "CQ456",
+    "fullName": "VŨ THANH NHÂN",
+    "sex": "nam",
+    "birthday": "2016-11-13",
+    "identity": "031311140781",
+    "phone": "0896311985"
+  },
+  {
+    "code": "CQ457",
+    "fullName": "LÝ QUỐC TOÀN",
+    "sex": "Nam",
+    "birthday": "2022-05-16",
+    "identity": "001714175129",
+    "phone": "0356830109"
+  },
+  {
+    "code": "CQ458",
+    "fullName": "VÕ KHÁNH MINH",
+    "sex": "nam",
+    "birthday": "2010-03-27",
+    "identity": "080709815424",
+    "phone": "0835773402"
+  },
+  {
+    "code": "CQ459",
+    "fullName": "TRƯƠNG THỊ TRANG",
+    "sex": "Nữ",
+    "birthday": "2008-03-24",
+    "identity": "054701821654",
+    "phone": "0824372555"
+  },
+  {
+    "code": "CQ460",
+    "fullName": "DƯƠNG NGỌC QUỐC",
+    "sex": "nam",
+    "birthday": "2011-04-04",
+    "identity": "020914262859",
+    "phone": "0976843610"
+  },
+  {
+    "code": "CQ462",
+    "fullName": "VŨ GIA HOA",
+    "sex": "Nam",
+    "birthday": "2021-04-20",
+    "identity": "077742396054",
+    "phone": "0988802319"
+  },
+  {
+    "code": "CQ463",
+    "fullName": "HƯNG KHÁNH QUANG",
+    "sex": "Nam",
+    "birthday": "2021-08-18",
+    "identity": "010259606958",
+    "phone": "0857199903"
+  },
+  {
+    "code": "CQ464",
+    "fullName": "ĐẶNG GIA TÙNG",
+    "sex": "Nam",
+    "birthday": "2023-10-12",
+    "identity": "067387549405",
+    "phone": "0564455394"
+  },
+  {
+    "code": "CQ465",
+    "fullName": "BÙI MINH DŨNG",
+    "sex": "Nam",
+    "birthday": "1996-09-30",
+    "identity": "012455690909",
+    "phone": "0903444353"
+  },
+  {
+    "code": "CQ466",
+    "fullName": "NGÔ QUỐC TRANG",
+    "sex": "nữ",
+    "birthday": "2014-04-29",
+    "identity": "079983253289",
+    "phone": "0779798127"
+  },
+  {
+    "code": "CQ467",
+    "fullName": "VŨ HỮU TÂM",
+    "sex": "nam",
+    "birthday": "2016-03-02",
+    "identity": "096950275485",
+    "phone": "0394053405"
+  },
+  {
+    "code": "CQ468",
+    "fullName": "LÊ ĐẶNG TUẤN KIỆT",
+    "sex": "nam",
+    "birthday": "1993-02-26",
+    "identity": "095363383926",
+    "phone": "0526821278"
+  },
+  {
+    "code": "CQ469",
+    "fullName": "Phạm Gia Tùng",
+    "sex": "Nam",
+    "birthday": "2009-11-01",
+    "identity": "086348258444",
+    "phone": "0599269167"
+  },
+  {
+    "code": "CQ470",
+    "fullName": "Bùi Thị Hương",
+    "sex": "nữ",
+    "birthday": "2015-07-25",
+    "identity": "037725321763",
+    "phone": "0346253858"
+  },
+  {
+    "code": "CQ471",
+    "fullName": "PHAN THỊ VŨ",
+    "sex": "nữ",
+    "birthday": "2021-11-30",
+    "identity": "066899285722",
+    "phone": "0598764511"
+  },
+  {
+    "code": "CQ472",
+    "fullName": "DƯƠNG KHÁNH QUỐC",
+    "sex": "nữ",
+    "birthday": "2000-02-19",
+    "identity": "030177022003",
+    "phone": "0937293924"
+  },
+  {
+    "code": "CQ473",
+    "fullName": "HƯNG VĂN BÌNH",
+    "sex": "nam",
+    "birthday": "1980-01-30",
+    "identity": "051466780043",
+    "phone": "0397225724"
+  },
+  {
+    "code": "CQ474",
+    "fullName": "LÊ NGỌC HỒNG",
+    "sex": "nam",
+    "birthday": "2014-03-23",
+    "identity": "048790564857",
+    "phone": "0333217906"
+  },
+  {
+    "code": "CQ475",
+    "fullName": "NGỌC QUỐC BÌNH",
+    "sex": "nữ",
+    "birthday": "2014-07-26",
+    "identity": "035755881993",
+    "phone": "0562461721"
+  },
+  {
+    "code": "CQ476",
+    "fullName": "TRẦN NGỌC THẢO",
+    "sex": "Nữ",
+    "birthday": "2009-12-11",
+    "identity": "058964762971",
+    "phone": "0796000383"
+  },
+  {
+    "code": "CQ477",
+    "fullName": "BÙI ĐÌNH HUY",
+    "sex": "nam",
+    "birthday": "2013-05-02",
+    "identity": "012780171259",
+    "phone": "0941757331"
+  },
+  {
+    "code": "CQ478",
+    "fullName": "HOÀNG NGỌC NHÂN",
+    "sex": "nữ",
+    "birthday": "2019-10-09",
+    "identity": "075648180668",
+    "phone": "0365386129"
+  },
+  {
+    "code": "CQ479",
+    "fullName": "HÀ KHÁNH SƠN",
+    "sex": "nam",
+    "birthday": "2006-07-07",
+    "identity": "091258826045",
+    "phone": "0854438830"
+  },
+  {
+    "code": "CQ480",
+    "fullName": "Nguyễn Hữu Mỹ",
+    "sex": "nam",
+    "birthday": "2022-12-12",
+    "identity": "080550215663",
+    "phone": "0895546265"
+  },
+  {
+    "code": "CQ481",
+    "fullName": "LÊ THANH LÊ",
+    "sex": "nam",
+    "birthday": "1994-03-24",
+    "identity": "075809188522",
+    "phone": "0891263350"
+  },
+  {
+    "code": "CQ482",
+    "fullName": "BẠCH MINH VINH",
+    "sex": "nữ",
+    "birthday": "2006-07-14",
+    "identity": "025957047003",
+    "phone": "0881667352"
+  },
+  {
+    "code": "CQ483",
+    "fullName": "TRƯƠNG KHÁNH THẢO",
+    "sex": "Nữ",
+    "birthday": "2020-09-24",
+    "identity": "014489298627",
+    "phone": "0357845577"
+  },
+  {
+    "code": "CQ484",
+    "fullName": "NGUYỄN VĂN HÒA",
+    "sex": "nam",
+    "birthday": "2023-11-23",
+    "identity": "020704716226",
+    "phone": "0889752574"
+  },
+  {
+    "code": "CQ485",
+    "fullName": "LÝ THANH VÂN",
+    "sex": "nữ",
+    "birthday": "2013-03-13",
+    "identity": "022249625226",
+    "phone": "0991507119"
+  },
+  {
+    "code": "CQ486",
+    "fullName": "ĐẶNG THANH HÀ",
+    "sex": "nam",
+    "birthday": "1987-09-01",
+    "identity": "040416405621",
+    "phone": "0595173810"
+  },
+  {
+    "code": "CQ487",
+    "fullName": "HÀ NGỌC TRÍ",
+    "sex": "nữ",
+    "birthday": "2008-08-22",
+    "identity": "034254822549",
+    "phone": "0795886439"
+  },
+  {
+    "code": "CQ488",
+    "fullName": "TẠ KHÁNH QUỐC",
+    "sex": "nam",
+    "birthday": "2023-10-07",
+    "identity": "035430724641",
+    "phone": "0945862779"
+  },
+  {
+    "code": "CQ489",
+    "fullName": "NGỌC KHÁNH BÌNH",
+    "sex": "nữ",
+    "birthday": "2002-03-23",
+    "identity": "066298159538",
+    "phone": "0943814079"
+  },
+  {
+    "code": "CQ490",
+    "fullName": "BÙI THANH VÂN",
+    "sex": "nam",
+    "birthday": "1977-08-29",
+    "identity": "025140900536",
+    "phone": "0837583307"
+  },
+  {
+    "code": "CQ491",
+    "fullName": "TRƯƠNG VĂN TÂM",
+    "sex": "Nam",
+    "birthday": "2015-05-11",
+    "identity": "052747664759",
+    "phone": "0945448077"
+  },
+  {
+    "code": "CQ492",
+    "fullName": "Phạm Thanh Khánh",
+    "sex": "nam",
+    "birthday": "2007-12-27",
+    "identity": "083695741349",
+    "phone": "0825020994"
+  },
+  {
+    "code": "CQ493",
+    "fullName": "HÀ NGỌC CHI",
+    "sex": "Nữ",
+    "birthday": "2008-03-07",
+    "identity": "040652604099",
+    "phone": "0849156962"
+  },
+  {
+    "code": "CQ494",
+    "fullName": "LƯƠNG NGỌC TRÍ",
+    "sex": "nam",
+    "birthday": "1993-11-04",
+    "identity": "068152299685",
+    "phone": "0812626536"
+  },
+  {
+    "code": "CQ495",
+    "fullName": "Trí Khánh Cẩm",
+    "sex": "nam",
+    "birthday": "1996-10-03",
+    "identity": "095946893789",
+    "phone": "0398833766"
+  },
+  {
+    "code": "CQ496",
+    "fullName": "Hà Văn Thái",
+    "sex": "Nam",
+    "birthday": "2000-05-04",
+    "identity": "092587015964",
+    "phone": "0366804196"
+  },
+  {
+    "code": "CQ497",
+    "fullName": "Hưng Quốc Hà",
+    "sex": "nữ",
+    "birthday": "2013-02-19",
+    "identity": "062362788427",
+    "phone": "0391686186"
+  },
+  {
+    "code": "CQ499",
+    "fullName": "Dương Đình Nam",
+    "sex": "Nam",
+    "birthday": "2012-10-11",
+    "identity": "095688016851",
+    "phone": "0529505507"
+  }
+]

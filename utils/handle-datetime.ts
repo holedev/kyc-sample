@@ -1,13 +1,18 @@
-const handleDatetime = (datetime: Date) =>
-  datetime.toLocaleString("en-US", {
-    timeZone: "Asia/Ho_Chi_Minh",
+const handleDatetime = (datetime: Date, showDetailsTime = false) => {
+  const options: Intl.DateTimeFormatOptions = {
     year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit"
-  });
+    month: "numeric",
+    day: "numeric"
+  };
+
+  if (showDetailsTime) {
+    options.hour = "2-digit";
+    options.minute = "2-digit";
+    options.second = "2-digit";
+  }
+
+  return datetime.toLocaleString("vi-VN", options);
+};
 
 const getRandomPastelColor = () => {
   const _maxHue = 360;

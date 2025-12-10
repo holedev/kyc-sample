@@ -1,58 +1,55 @@
-import { getTranslations } from "next-intl/server";
-import { Badge } from "@/components/ui/badge";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import Image from "next/image";
 import { Link } from "@/configs/i18n/routing";
 import { _ROUTE_PROFILE } from "@/constants/route";
-import { getRandomPastelColor, handleDatetime } from "@/utils/handle-datetime";
-import { getAllNickname } from "./actions";
+import { countKYCRecordsByNicknameId } from "./actions";
 
-type NicknameType = {
-  content: string;
-  updatedAt: string;
-  color: string;
+type Payload = {
+  count: number;
 };
 
-const UserList = async () => {
-  const t = await getTranslations("home.nickname");
-  const tCommonText = await getTranslations("common.text");
-
-  const { data, error } = await getAllNickname();
+const ThankUser = async () => {
+  const { data, error } = await countKYCRecordsByNicknameId();
   if (error) {
     throw new Error(error.message);
   }
-  const nicknames = data?.payload as NicknameType[];
+  const count = (data?.payload as Payload).count;
+
+  if (count < 0) {
+    return (
+      <div>
+        <h1 className='my-2 text-center font-bold text-xl'>Lời cảm ơn!</h1>
+        <div>
+          <div className='text-center'>
+            Cảm ơn anh/chị/em đã hỗ trợ mình trong việc thu thập dữ liệu mẫu KYC lần này. Sự đóng góp của anh/chị/em
+            giúp mình cải thiện tốc độ ra trường rất nhiều ạ.
+          </div>
+          <Image alt='Thank You' className='mx-auto my-4' height={200} src='/assets/chu_ngua.png' width={300} />
+          <div className='text-center'>
+            Anh/chị/em vui lòng tạo hoặc đăng nhập tài khoản trước tại{" "}
+            <Link className='font-bold underline' href={_ROUTE_PROFILE}>
+              đây
+            </Link>{" "}
+            ạ.
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div className='flex flex-col items-center justify-center gap-6'>
-      <div className='text-center'>
-        <h2 className='font-bold text-xl uppercase'>{t("title")}</h2>
-        <p className='text-muted-foreground text-sm italic'>
-          {t("description")}{" "}
-          <Link className='text-primary hover:underline' href={_ROUTE_PROFILE}>
-            {tCommonText("here")}.
-          </Link>
+    <div>
+      <h1 className='my-2 text-center font-bold text-xl'>Lời cảm ơn!</h1>
+      <div className='space-y-4'>
+        <p className='text-center'>
+          Cảm ơn anh/chị/em đã hỗ trợ mình trong việc thu thập dữ liệu mẫu KYC lần này. Sự đóng góp của anh/chị/em giúp
+          mình cải thiện tốc độ ra trường rất nhiều ạ.
         </p>
-      </div>
-      <div className='flex flex-wrap justify-center gap-2'>
-        {nicknames?.map((nickname, _) => {
-          const randomBackgroundColor = getRandomPastelColor();
-
-          return (
-            <Tooltip key={nickname.content}>
-              <TooltipTrigger>
-                <Badge className='rounded-md text-md' style={{ background: randomBackgroundColor }}>
-                  {nickname.content}
-                </Badge>
-              </TooltipTrigger>
-              <TooltipContent side='bottom'>
-                <p className='text-muted-foreground'>{handleDatetime(new Date(nickname.updatedAt))}</p>
-              </TooltipContent>
-            </Tooltip>
-          );
-        })}
+        <p className='text-center'>
+          Anh/chị/em đã record thành công <strong>{count}</strong> bản ghi.
+        </p>
       </div>
     </div>
   );
 };
 
-export { UserList };
+export { ThankUser };

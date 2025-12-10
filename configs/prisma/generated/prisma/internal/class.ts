@@ -20,7 +20,7 @@ const config: runtime.GetPrismaClientConfig = {
   "clientVersion": "7.1.0",
   "engineVersion": "ab635e6b9d606fa5c8fb8b1a7f909c3c3c1c98ba",
   "activeProvider": "postgresql",
-  "inlineSchema": "// https://supabase.com/partners/integrations/prisma\n\n// NOTE: \n// I do not use database of Supabase, I use my own database with prisma to save data locally.\n// I only use Supabase for authentication. You can use Supabase for database as well. \n\ngenerator client {\n  provider = \"prisma-client\"\n  output   = \"./generated/prisma\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n  schemas  = [\"public\"]\n}\n\nmodel Nickname {\n  id        Int      @id @default(autoincrement())\n  authorId  String   @unique\n  content   String\n  createdAt DateTime @default(now())\n  updatedAt DateTime @updatedAt\n\n  @@schema(\"public\")\n}\n",
+  "inlineSchema": "// https://supabase.com/partners/integrations/prisma\n\n// NOTE: \n// I do not use database of Supabase, I use my own database with prisma to save data locally.\n// I only use Supabase for authentication. You can use Supabase for database as well. \n\ngenerator client {\n  provider = \"prisma-client\"\n  output   = \"./generated/prisma\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n  schemas  = [\"public\"]\n}\n\nenum Status {\n  PENDING\n  VERIFIED\n\n  @@schema(\"public\")\n}\n\nmodel Nickname {\n  id        Int       @id @default(autoincrement())\n  authorId  String    @unique\n  content   String    @unique\n  createdAt DateTime  @default(now())\n  updatedAt DateTime  @updatedAt\n  kycIds    InfoKYC[]\n\n  @@schema(\"public\")\n}\n\nmodel InfoKYC {\n  id         Int       @id @default(autoincrement())\n  code       String    @unique\n  fullName   String\n  birthday   DateTime\n  sex        String\n  identity   String    @unique\n  phone      String    @unique\n  status     Status    @default(PENDING)\n  createdAt  DateTime  @default(now())\n  updatedAt  DateTime  @updatedAt\n  nickname   Nickname? @relation(fields: [nicknameId], references: [id])\n  nicknameId Int?\n\n  @@schema(\"public\")\n}\n",
   "runtimeDataModel": {
     "models": {},
     "enums": {},
@@ -28,7 +28,7 @@ const config: runtime.GetPrismaClientConfig = {
   }
 }
 
-config.runtimeDataModel = JSON.parse("{\"models\":{\"Nickname\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"authorId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"content\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"createdAt\",\"kind\":\"scalar\",\"type\":\"DateTime\"},{\"name\":\"updatedAt\",\"kind\":\"scalar\",\"type\":\"DateTime\"}],\"dbName\":null}},\"enums\":{},\"types\":{}}")
+config.runtimeDataModel = JSON.parse("{\"models\":{\"Nickname\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"authorId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"content\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"createdAt\",\"kind\":\"scalar\",\"type\":\"DateTime\"},{\"name\":\"updatedAt\",\"kind\":\"scalar\",\"type\":\"DateTime\"},{\"name\":\"kycIds\",\"kind\":\"object\",\"type\":\"InfoKYC\",\"relationName\":\"InfoKYCToNickname\"}],\"dbName\":null},\"InfoKYC\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"code\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"fullName\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"birthday\",\"kind\":\"scalar\",\"type\":\"DateTime\"},{\"name\":\"sex\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"identity\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"phone\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"status\",\"kind\":\"enum\",\"type\":\"Status\"},{\"name\":\"createdAt\",\"kind\":\"scalar\",\"type\":\"DateTime\"},{\"name\":\"updatedAt\",\"kind\":\"scalar\",\"type\":\"DateTime\"},{\"name\":\"nickname\",\"kind\":\"object\",\"type\":\"Nickname\",\"relationName\":\"InfoKYCToNickname\"},{\"name\":\"nicknameId\",\"kind\":\"scalar\",\"type\":\"Int\"}],\"dbName\":null}},\"enums\":{},\"types\":{}}")
 
 async function decodeBase64AsWasm(wasmBase64: string): Promise<WebAssembly.Module> {
   const { Buffer } = await import('node:buffer')
@@ -183,6 +183,16 @@ export interface PrismaClient<
     * ```
     */
   get nickname(): Prisma.NicknameDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.infoKYC`: Exposes CRUD operations for the **InfoKYC** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more InfoKYCS
+    * const infoKYCS = await prisma.infoKYC.findMany()
+    * ```
+    */
+  get infoKYC(): Prisma.InfoKYCDelegate<ExtArgs, { omit: OmitOpts }>;
 }
 
 export function getPrismaClientClass(): PrismaClientConstructor {

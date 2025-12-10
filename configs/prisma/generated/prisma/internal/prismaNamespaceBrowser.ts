@@ -51,7 +51,8 @@ export const AnyNull = runtime.AnyNull
 
 
 export const ModelName = {
-  Nickname: 'Nickname'
+  Nickname: 'Nickname',
+  InfoKYC: 'InfoKYC'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -81,6 +82,23 @@ export const NicknameScalarFieldEnum = {
 export type NicknameScalarFieldEnum = (typeof NicknameScalarFieldEnum)[keyof typeof NicknameScalarFieldEnum]
 
 
+export const InfoKYCScalarFieldEnum = {
+  id: 'id',
+  code: 'code',
+  fullName: 'fullName',
+  birthday: 'birthday',
+  sex: 'sex',
+  identity: 'identity',
+  phone: 'phone',
+  status: 'status',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt',
+  nicknameId: 'nicknameId'
+} as const
+
+export type InfoKYCScalarFieldEnum = (typeof InfoKYCScalarFieldEnum)[keyof typeof InfoKYCScalarFieldEnum]
+
+
 export const SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -95,4 +113,12 @@ export const QueryMode = {
 } as const
 
 export type QueryMode = (typeof QueryMode)[keyof typeof QueryMode]
+
+
+export const NullsOrder = {
+  first: 'first',
+  last: 'last'
+} as const
+
+export type NullsOrder = (typeof NullsOrder)[keyof typeof NullsOrder]
 

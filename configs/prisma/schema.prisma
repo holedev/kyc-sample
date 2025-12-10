@@ -14,12 +14,37 @@ datasource db {
   schemas  = ["public"]
 }
 
+enum Status {
+  PENDING
+  VERIFIED
+
+  @@schema("public")
+}
+
 model Nickname {
-  id        Int      @id @default(autoincrement())
-  authorId  String   @unique
-  content   String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id        Int       @id @default(autoincrement())
+  authorId  String    @unique
+  content   String    @unique
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  kycIds    InfoKYC[]
+
+  @@schema("public")
+}
+
+model InfoKYC {
+  id         Int       @id @default(autoincrement())
+  code       String    @unique
+  fullName   String
+  birthday   DateTime
+  sex        String
+  identity   String    @unique
+  phone      String    @unique
+  status     Status    @default(PENDING)
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  nickname   Nickname? @relation(fields: [nicknameId], references: [id])
+  nicknameId Int?
 
   @@schema("public")
 }

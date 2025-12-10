@@ -216,6 +216,7 @@ export type NicknameWhereInput = {
   content?: Prisma.StringFilter<"Nickname"> | string
   createdAt?: Prisma.DateTimeFilter<"Nickname"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"Nickname"> | Date | string
+  kycIds?: Prisma.InfoKYCListRelationFilter
 }
 
 export type NicknameOrderByWithRelationInput = {
@@ -224,18 +225,20 @@ export type NicknameOrderByWithRelationInput = {
   content?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
+  kycIds?: Prisma.InfoKYCOrderByRelationAggregateInput
 }
 
 export type NicknameWhereUniqueInput = Prisma.AtLeast<{
   id?: number
   authorId?: string
+  content?: string
   AND?: Prisma.NicknameWhereInput | Prisma.NicknameWhereInput[]
   OR?: Prisma.NicknameWhereInput[]
   NOT?: Prisma.NicknameWhereInput | Prisma.NicknameWhereInput[]
-  content?: Prisma.StringFilter<"Nickname"> | string
   createdAt?: Prisma.DateTimeFilter<"Nickname"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"Nickname"> | Date | string
-}, "id" | "authorId">
+  kycIds?: Prisma.InfoKYCListRelationFilter
+}, "id" | "authorId" | "content">
 
 export type NicknameOrderByWithAggregationInput = {
   id?: Prisma.SortOrder
@@ -266,6 +269,7 @@ export type NicknameCreateInput = {
   content: string
   createdAt?: Date | string
   updatedAt?: Date | string
+  kycIds?: Prisma.InfoKYCCreateNestedManyWithoutNicknameInput
 }
 
 export type NicknameUncheckedCreateInput = {
@@ -274,6 +278,7 @@ export type NicknameUncheckedCreateInput = {
   content: string
   createdAt?: Date | string
   updatedAt?: Date | string
+  kycIds?: Prisma.InfoKYCUncheckedCreateNestedManyWithoutNicknameInput
 }
 
 export type NicknameUpdateInput = {
@@ -281,6 +286,7 @@ export type NicknameUpdateInput = {
   content?: Prisma.StringFieldUpdateOperationsInput | string
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  kycIds?: Prisma.InfoKYCUpdateManyWithoutNicknameNestedInput
 }
 
 export type NicknameUncheckedUpdateInput = {
@@ -289,6 +295,7 @@ export type NicknameUncheckedUpdateInput = {
   content?: Prisma.StringFieldUpdateOperationsInput | string
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  kycIds?: Prisma.InfoKYCUncheckedUpdateManyWithoutNicknameNestedInput
 }
 
 export type NicknameCreateManyInput = {
@@ -346,6 +353,11 @@ export type NicknameSumOrderByAggregateInput = {
   id?: Prisma.SortOrder
 }
 
+export type NicknameNullableScalarRelationFilter = {
+  is?: Prisma.NicknameWhereInput | null
+  isNot?: Prisma.NicknameWhereInput | null
+}
+
 export type StringFieldUpdateOperationsInput = {
   set?: string
 }
@@ -362,6 +374,97 @@ export type IntFieldUpdateOperationsInput = {
   divide?: number
 }
 
+export type NicknameCreateNestedOneWithoutKycIdsInput = {
+  create?: Prisma.XOR<Prisma.NicknameCreateWithoutKycIdsInput, Prisma.NicknameUncheckedCreateWithoutKycIdsInput>
+  connectOrCreate?: Prisma.NicknameCreateOrConnectWithoutKycIdsInput
+  connect?: Prisma.NicknameWhereUniqueInput
+}
+
+export type NicknameUpdateOneWithoutKycIdsNestedInput = {
+  create?: Prisma.XOR<Prisma.NicknameCreateWithoutKycIdsInput, Prisma.NicknameUncheckedCreateWithoutKycIdsInput>
+  connectOrCreate?: Prisma.NicknameCreateOrConnectWithoutKycIdsInput
+  upsert?: Prisma.NicknameUpsertWithoutKycIdsInput
+  disconnect?: Prisma.NicknameWhereInput | boolean
+  delete?: Prisma.NicknameWhereInput | boolean
+  connect?: Prisma.NicknameWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.NicknameUpdateToOneWithWhereWithoutKycIdsInput, Prisma.NicknameUpdateWithoutKycIdsInput>, Prisma.NicknameUncheckedUpdateWithoutKycIdsInput>
+}
+
+export type NicknameCreateWithoutKycIdsInput = {
+  authorId: string
+  content: string
+  createdAt?: Date | string
+  updatedAt?: Date | string
+}
+
+export type NicknameUncheckedCreateWithoutKycIdsInput = {
+  id?: number
+  authorId: string
+  content: string
+  createdAt?: Date | string
+  updatedAt?: Date | string
+}
+
+export type NicknameCreateOrConnectWithoutKycIdsInput = {
+  where: Prisma.NicknameWhereUniqueInput
+  create: Prisma.XOR<Prisma.NicknameCreateWithoutKycIdsInput, Prisma.NicknameUncheckedCreateWithoutKycIdsInput>
+}
+
+export type NicknameUpsertWithoutKycIdsInput = {
+  update: Prisma.XOR<Prisma.NicknameUpdateWithoutKycIdsInput, Prisma.NicknameUncheckedUpdateWithoutKycIdsInput>
+  create: Prisma.XOR<Prisma.NicknameCreateWithoutKycIdsInput, Prisma.NicknameUncheckedCreateWithoutKycIdsInput>
+  where?: Prisma.NicknameWhereInput
+}
+
+export type NicknameUpdateToOneWithWhereWithoutKycIdsInput = {
+  where?: Prisma.NicknameWhereInput
+  data: Prisma.XOR<Prisma.NicknameUpdateWithoutKycIdsInput, Prisma.NicknameUncheckedUpdateWithoutKycIdsInput>
+}
+
+export type NicknameUpdateWithoutKycIdsInput = {
+  authorId?: Prisma.StringFieldUpdateOperationsInput | string
+  content?: Prisma.StringFieldUpdateOperationsInput | string
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+}
+
+export type NicknameUncheckedUpdateWithoutKycIdsInput = {
+  id?: Prisma.IntFieldUpdateOperationsInput | number
+  authorId?: Prisma.StringFieldUpdateOperationsInput | string
+  content?: Prisma.StringFieldUpdateOperationsInput | string
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+}
+
+
+/**
+ * Count Type NicknameCountOutputType
+ */
+
+export type NicknameCountOutputType = {
+  kycIds: number
+}
+
+export type NicknameCountOutputTypeSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  kycIds?: boolean | NicknameCountOutputTypeCountKycIdsArgs
+}
+
+/**
+ * NicknameCountOutputType without action
+ */
+export type NicknameCountOutputTypeDefaultArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the NicknameCountOutputType
+   */
+  select?: Prisma.NicknameCountOutputTypeSelect<ExtArgs> | null
+}
+
+/**
+ * NicknameCountOutputType without action
+ */
+export type NicknameCountOutputTypeCountKycIdsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.InfoKYCWhereInput
+}
 
 
 export type NicknameSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
@@ -370,6 +473,8 @@ export type NicknameSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs
   content?: boolean
   createdAt?: boolean
   updatedAt?: boolean
+  kycIds?: boolean | Prisma.Nickname$kycIdsArgs<ExtArgs>
+  _count?: boolean | Prisma.NicknameCountOutputTypeDefaultArgs<ExtArgs>
 }, ExtArgs["result"]["nickname"]>
 
 export type NicknameSelectCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
@@ -397,10 +502,18 @@ export type NicknameSelectScalar = {
 }
 
 export type NicknameOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "authorId" | "content" | "createdAt" | "updatedAt", ExtArgs["result"]["nickname"]>
+export type NicknameInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  kycIds?: boolean | Prisma.Nickname$kycIdsArgs<ExtArgs>
+  _count?: boolean | Prisma.NicknameCountOutputTypeDefaultArgs<ExtArgs>
+}
+export type NicknameIncludeCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {}
+export type NicknameIncludeUpdateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {}
 
 export type $NicknamePayload<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   name: "Nickname"
-  objects: {}
+  objects: {
+    kycIds: Prisma.$InfoKYCPayload<ExtArgs>[]
+  }
   scalars: runtime.Types.Extensions.GetPayloadResult<{
     id: number
     authorId: string
@@ -801,6 +914,7 @@ readonly fields: NicknameFieldRefs;
  */
 export interface Prisma__NicknameClient<T, Null = never, ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs, GlobalOmitOptions = {}> extends Prisma.PrismaPromise<T> {
   readonly [Symbol.toStringTag]: "PrismaPromise"
+  kycIds<T extends Prisma.Nickname$kycIdsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Nickname$kycIdsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$InfoKYCPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   /**
    * Attaches callbacks for the resolution and/or rejection of the Promise.
    * @param onfulfilled The callback to execute when the Promise is resolved.
@@ -852,6 +966,10 @@ export type NicknameFindUniqueArgs<ExtArgs extends runtime.Types.Extensions.Inte
    */
   omit?: Prisma.NicknameOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.NicknameInclude<ExtArgs> | null
+  /**
    * Filter, which Nickname to fetch.
    */
   where: Prisma.NicknameWhereUniqueInput
@@ -870,6 +988,10 @@ export type NicknameFindUniqueOrThrowArgs<ExtArgs extends runtime.Types.Extensio
    */
   omit?: Prisma.NicknameOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.NicknameInclude<ExtArgs> | null
+  /**
    * Filter, which Nickname to fetch.
    */
   where: Prisma.NicknameWhereUniqueInput
@@ -887,6 +1009,10 @@ export type NicknameFindFirstArgs<ExtArgs extends runtime.Types.Extensions.Inter
    * Omit specific fields from the Nickname
    */
   omit?: Prisma.NicknameOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.NicknameInclude<ExtArgs> | null
   /**
    * Filter, which Nickname to fetch.
    */
@@ -936,6 +1062,10 @@ export type NicknameFindFirstOrThrowArgs<ExtArgs extends runtime.Types.Extension
    */
   omit?: Prisma.NicknameOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.NicknameInclude<ExtArgs> | null
+  /**
    * Filter, which Nickname to fetch.
    */
   where?: Prisma.NicknameWhereInput
@@ -984,6 +1114,10 @@ export type NicknameFindManyArgs<ExtArgs extends runtime.Types.Extensions.Intern
    */
   omit?: Prisma.NicknameOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.NicknameInclude<ExtArgs> | null
+  /**
    * Filter, which Nicknames to fetch.
    */
   where?: Prisma.NicknameWhereInput
@@ -1026,6 +1160,10 @@ export type NicknameCreateArgs<ExtArgs extends runtime.Types.Extensions.Internal
    * Omit specific fields from the Nickname
    */
   omit?: Prisma.NicknameOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.NicknameInclude<ExtArgs> | null
   /**
    * The data needed to create a Nickname.
    */
@@ -1074,6 +1212,10 @@ export type NicknameUpdateArgs<ExtArgs extends runtime.Types.Extensions.Internal
    * Omit specific fields from the Nickname
    */
   omit?: Prisma.NicknameOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.NicknameInclude<ExtArgs> | null
   /**
    * The data needed to update a Nickname.
    */
@@ -1141,6 +1283,10 @@ export type NicknameUpsertArgs<ExtArgs extends runtime.Types.Extensions.Internal
    */
   omit?: Prisma.NicknameOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.NicknameInclude<ExtArgs> | null
+  /**
    * The filter to search for the Nickname to update in case it exists.
    */
   where: Prisma.NicknameWhereUniqueInput
@@ -1167,6 +1313,10 @@ export type NicknameDeleteArgs<ExtArgs extends runtime.Types.Extensions.Internal
    */
   omit?: Prisma.NicknameOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.NicknameInclude<ExtArgs> | null
+  /**
    * Filter which Nickname to delete.
    */
   where: Prisma.NicknameWhereUniqueInput
@@ -1187,6 +1337,30 @@ export type NicknameDeleteManyArgs<ExtArgs extends runtime.Types.Extensions.Inte
 }
 
 /**
+ * Nickname.kycIds
+ */
+export type Nickname$kycIdsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the InfoKYC
+   */
+  select?: Prisma.InfoKYCSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the InfoKYC
+   */
+  omit?: Prisma.InfoKYCOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.InfoKYCInclude<ExtArgs> | null
+  where?: Prisma.InfoKYCWhereInput
+  orderBy?: Prisma.InfoKYCOrderByWithRelationInput | Prisma.InfoKYCOrderByWithRelationInput[]
+  cursor?: Prisma.InfoKYCWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.InfoKYCScalarFieldEnum | Prisma.InfoKYCScalarFieldEnum[]
+}
+
+/**
  * Nickname without action
  */
 export type NicknameDefaultArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
@@ -1198,4 +1372,8 @@ export type NicknameDefaultArgs<ExtArgs extends runtime.Types.Extensions.Interna
    * Omit specific fields from the Nickname
    */
   omit?: Prisma.NicknameOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.NicknameInclude<ExtArgs> | null
 }

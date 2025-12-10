@@ -33,7 +33,7 @@
     }
   },
   "header": {
-    "logoName": "KIT mẫu",
+    "logoName": "KYC SAMPLE",
     "apiDocs": "API Docs"
   },
   "footer": {
@@ -41,7 +41,15 @@
   },
   "auth": {
     "title": "Trang đăng nhập",
-    "description": "Đăng nhập vào tài khoản của bạn qua mạng xã hội."
+    "description": "Đăng nhập vào tài khoản của bạn qua mạng xã hội.",
+    "orContinueWith": "Hoặc tiếp tục với",
+    "form": {
+      "nicknameLabel": "Nickname",
+      "nicknamePlaceholder": "Điền bí danh của bạn ...",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Điền mật khẩu của bạn ...",
+      "fastSignUp": "Đăng ký nhanh"
+    }
   },
   "home": {
     "title": "Trang chủ",

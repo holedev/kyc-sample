@@ -33,7 +33,7 @@
     }
   },
   "header": {
-    "logoName": "NEXTJS FASTER",
+    "logoName": "KYC SAMPLE",
     "apiDocs": "API Docs"
   },
   "footer": {
@@ -41,7 +41,15 @@
   },
   "auth": {
     "title": "Auth Page",
-    "description": "Login to your account with your favorite social media."
+    "description": "Login to your account with your favorite social media.",
+    "orContinueWith": "Or continue with",
+    "form": {
+      "nicknameLabel": "Nickname",
+      "nicknamePlaceholder": "Enter your nickname here ...",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password here ...",
+      "fastSignUp": "Fast Sign Up"
+    }
   },
   "home": {
     "title": "Homepage",

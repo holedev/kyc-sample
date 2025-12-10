@@ -1,13 +1,14 @@
 import "@/app/globals.css";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { _DEFAULT_APP_NAME } from "@/constants";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | NextJS Faster",
-    default: "NextJS Faster"
+    template: `%s | ${_DEFAULT_APP_NAME}`,
+    default: _DEFAULT_APP_NAME
   },
-  description: "NextJS Faster"
+  description: _DEFAULT_APP_NAME
 };
 
 type Props = {

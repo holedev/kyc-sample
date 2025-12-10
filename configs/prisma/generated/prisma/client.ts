@@ -44,3 +44,8 @@ export { Prisma }
  * 
  */
 export type Nickname = Prisma.NicknameModel
+/**
+ * Model InfoKYC
+ * 
+ */
+export type InfoKYC = Prisma.InfoKYCModel

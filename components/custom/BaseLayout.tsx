@@ -3,11 +3,11 @@ import { Roboto } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import type { ReactNode } from "react";
+import { Toaster } from "@/components/ui/sonner";
 import { _LOCALES } from "@/constants/lang";
 import { cn } from "@/lib/utils";
 import type { locale } from "@/types/global";
 import { ThemeProvider } from "../theme-provider";
-import { Toaster } from "../ui/toaster";
 import { TooltipProvider } from "../ui/tooltip";
 
 const roboto = Roboto({
@@ -25,7 +25,7 @@ export async function BaseLayout({ children, locale }: BaseLayoutType) {
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={cn(roboto.className, "flex h-screen w-screen flex-col")}>
+      <body className={cn(roboto.className, "flex h-screen w-screen flex-col overflow-x-hidden")}>
         <ThemeProvider attribute='class' defaultTheme='system' disableTransitionOnChange enableSystem>
           <TooltipProvider>
             <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>

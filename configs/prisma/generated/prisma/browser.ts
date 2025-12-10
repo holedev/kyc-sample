@@ -22,3 +22,8 @@ export * from './enums';
  * 
  */
 export type Nickname = Prisma.NicknameModel
+/**
+ * Model InfoKYC
+ * 
+ */
+export type InfoKYC = Prisma.InfoKYCModel
