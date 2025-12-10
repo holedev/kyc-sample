@@ -1,7 +1,6 @@
-FROM node:24-alpine AS base
+FROM node:24-slim AS base
 
 FROM base AS deps
-RUN apk add --no-cache libc6-compat python3 make g++ gcc
 WORKDIR /app
 
 COPY configs/prisma/ /app/configs/prisma/
