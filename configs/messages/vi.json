@@ -59,9 +59,9 @@
     },
     "thanks": {
       "title": "Lời cảm ơn!",
-      "description": "Cảm ơn anh/chị/em đã hỗ trợ mình trong việc thu thập dữ liệu mẫu KYC lần này. Sự đóng góp của anh/chị/em giúp mình cải thiện tốc độ ra trường rất nhiều ạ. Anh/chị/em vui lòng chọn đúng giới tính trước khi lấy record random ạ. Nếu đã đăng nhập nhưng chưa thấy phần record, anh/chị/em vui lòng reload lại trang hiện tại (lỗi này fix sau ạ)",
+      "description": "Cảm ơn anh/chị/em đã hỗ trợ mình trong việc thu thập dữ liệu mẫu KYC lần này. Sự đóng góp của mọi người giúp mình cải thiện tốc độ ra trường rất nhiều. Hiện tại app chưa hoạt động tốt trên iphone, mọi người vui lòng sử dụng android hoặc laptop (ngàn lần xin lỗi vì sự bất tiện này :((((). Anh/chị/em vui lòng chọn đúng giới tính trước khi lấy record random. Nếu đã đăng nhập nhưng chưa thấy phần record, mọi người vui lòng reload lại trang hiện tại.",
       "login": "Anh/chị/em vui lòng tạo hoặc đăng nhập tài khoản tại ",
-      "recordCount": "Anh/chị/em đã record thành công {count} bản ghi."
+      "recordCount": "Anh/chị/em đã record thành công {count} bản ghi. (Mỗi người chỉ cần 1 record là đủ rồi nhe hehehe)"
     }
   },
   "profile": {
