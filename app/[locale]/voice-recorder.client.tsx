@@ -37,20 +37,22 @@ export function VoiceRecorder({ onRecordingComplete, label }: VoiceRecorderProps
       };
 
       mediaRecorder.onstop = () => {
-        const audioBlob = new Blob(audioChunksRef.current, { type: "audio/mp4" });
-        setAudioBlob(audioBlob);
-        setHasRecording(true);
+        setTimeout(() => {
+          const audioBlob = new Blob(audioChunksRef.current, { type: "audio/mp4" });
+          setAudioBlob(audioBlob);
+          setHasRecording(true);
 
-        if (onRecordingComplete) {
-          onRecordingComplete(audioBlob);
-        }
+          if (onRecordingComplete) {
+            onRecordingComplete(audioBlob);
+          }
 
-        for (const track of stream.getTracks()) {
-          track.stop();
-        }
+          for (const track of stream.getTracks()) {
+            track.stop();
+          }
+        }, 20);
       };
 
-      mediaRecorder.start();
+      mediaRecorder.start(200);
       setIsRecording(true);
     } catch (error) {
       console.error("Error accessing microphone:", error);
