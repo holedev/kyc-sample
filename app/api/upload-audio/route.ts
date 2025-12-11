@@ -49,11 +49,21 @@ async function uploadSingleFile(
 ): Promise<UploadResult> {
   try {
     const buffer = Buffer.from(await file.arrayBuffer());
-    const objectName = `${nicknameId}/${kycCode}/${fieldName}.webm`;
+
+    const extensionMap: Record<string, string> = {
+      "audio/mp4": "m4a",
+      "audio/aac": "m4a",
+      "audio/m4a": "m4a",
+      "audio/mpeg": "mp3"
+    };
+
+    const extension = extensionMap[file.type] ?? "bin";
+
+    const objectName = `${nicknameId}/${kycCode}/${fieldName}.${extension}`;
 
     await minioClient.putObject(BUCKET_NAME, objectName, buffer, buffer.length, {
-      "Content-Type": file.type || "audio/webm",
-      "Content-Disposition": `inline; filename="${fieldName}.webm"`
+      "Content-Type": file.type,
+      "Content-Disposition": `inline; filename="${fieldName}.${extension}"`
     });
 
     return {

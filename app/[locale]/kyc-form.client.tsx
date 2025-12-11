@@ -47,7 +47,7 @@ export function KYCFormClient() {
       formData.append("kycCode", kycCode);
 
       for (const [fieldName, audioBlob] of Object.entries(voiceRecordings)) {
-        formData.append(fieldName, audioBlob, `${fieldName}.webm`);
+        formData.append(fieldName, audioBlob, `${fieldName}.m4a`);
       }
 
       const response = await fetch("/api/upload-audio", {

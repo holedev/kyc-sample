@@ -24,7 +24,8 @@ export function VoiceRecorder({ onRecordingComplete, label }: VoiceRecorderProps
   const startRecording = async () => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const mediaRecorder = new MediaRecorder(stream);
+      const mime = MediaRecorder.isTypeSupported("audio/mp4") ? "audio/mp4" : "";
+      const mediaRecorder = new MediaRecorder(stream, { mimeType: mime });
 
       mediaRecorderRef.current = mediaRecorder;
       audioChunksRef.current = [];
@@ -36,7 +37,7 @@ export function VoiceRecorder({ onRecordingComplete, label }: VoiceRecorderProps
       };
 
       mediaRecorder.onstop = () => {
-        const audioBlob = new Blob(audioChunksRef.current, { type: "audio/wav" });
+        const audioBlob = new Blob(audioChunksRef.current, { type: "audio/mp4" });
         setAudioBlob(audioBlob);
         setHasRecording(true);
 
