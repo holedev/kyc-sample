@@ -37,7 +37,7 @@
     "apiDocs": "API Docs"
   },
   "footer": {
-    "copyright": "© 2024, 2025 - <a target='__blank' href='https://github.com/holedev'>@holedev</a>"
+    "copyright": "© 2024, 2025 - <a target='__blank' href='https://github.com/holedev'>@holedev</a>  - Chi tiết về luận văn xem tại <a target='__blank' href='https://github.com/holedev/kyc-sample/blob/main/OBJECTIVE.md'>đây</a>."
   },
   "auth": {
     "title": "Trang đăng nhập",
